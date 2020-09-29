@@ -1,7 +1,171 @@
 .cover {
   height: 100vh;
-  width: 100vw;
   background-image: url("../images/cover.jpg");
   background-size: cover;
-  opacity: 0.65;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.coverText {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.coverTitle {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Bowlby One", cursive;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+.and {
+  color: rgb(255, 255, 255);
+  font-family: "Reenie Beanie", cursive;
+}
+
+.coverDesc {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.about {
+  margin: 50px;
+}
+
+.nameTitle {
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+}
+
+.descText {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+}
+
+.quote {
+  line-height: 30px;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  border-top: 2px solid rgb(0, 49, 21);
+  border-bottom: 2px solid rgb(0, 49, 21);
+}
+
+.floatImg {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: -100px;
+  top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.floatImg2 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: 160px;
+  top: -45px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+  width: 100%;
+  min-height: 500px;
+  background-color: rgb(236, 234, 217);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.details {
+  padding: 10px;
+  font-family: "Bowlby One", cursive;
+  font-size: 30px;
+}
+
+.detailsSub {
+  padding: 10px;
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+}
+
+.detailsText {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.timeline {
+  background-color: white;
+  position: relative;
+  top: -50px;
+}
+
+.timelineTitle {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.timelineTime {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.iconFA {
+  font-size: 50px;
+  margin: 0 0 25px 0;
+}
+
+.regTitle {
+  margin-top: 50px;
+  font-family: "Bowlby One", cursive;
+  font-size: 30px;
+}
+
+.regText {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 400 px) and (max-width: 600 px) {
+  .cover {
+    height: 40vh;
+  }
+
+  .coverTitle {
+    font-size: 2rem;
+  }
+
+  .coverDesc {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 600 px) and (max-width: 1000 px) {
+  .cover {
+    height: 60vh;
+  }
+
+  .coverTitle {
+    font-size: 3rem;
+  }
+
+  .coverDesc {
+    font-size: 1rem;
+  }
 }

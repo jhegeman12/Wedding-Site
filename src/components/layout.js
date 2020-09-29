@@ -28,12 +28,12 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
+            textAlign: "center",
             marginTop: `2rem`,
+            fontFamily: "Epilogue, sans-serif",
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          Made with ❤️ by Tom
         </footer>
       </div>
     </>
