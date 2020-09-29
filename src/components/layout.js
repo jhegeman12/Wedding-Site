@@ -7,21 +7,10 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <div>
@@ -33,7 +22,11 @@ const Layout = ({ children }) => {
             fontFamily: "Epilogue, sans-serif",
           }}
         >
-          Made with ❤️ by Tom
+          Made with{" "}
+          <span role="img" aria-label="heart" aria-labelledby="heart">
+            ❤️
+          </span>{" "}
+          by Tom
         </footer>
       </div>
     </>
