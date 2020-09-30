@@ -38,7 +38,7 @@ class IndexPage extends React.Component {
     return (
       <Page pose={this.state.isVisible ? "visible" : "hidden"}>
         <Layout>
-          <SEO title="Home" />
+          <SEO title="Tom & Danielle's Wedding" />
           <div className=".container.is-fullhd">
             <div className="cover ">
               <div className="coverText">
