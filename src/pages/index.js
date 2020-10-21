@@ -25,7 +25,23 @@ const Page = posed.div({
 })
 
 class IndexPage extends React.Component {
-  state = { isVisible: false }
+  state = { isVisible: false, days: 0, hours: 0, minutes: 0, seconds: 0 }
+
+  countdown = () => {
+    let countDownDate = new Date("Aug 21, 2021 15:00:00").getTime()
+
+    const x = setInterval(() => {
+      let now = new Date().getTime()
+      let distance = countDownDate - now
+
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      this.setState({'days': days, 'hours': hours, 'minutes': minutes, 'seconds': seconds})
+    }, 1000)
+  }
 
   componentDidMount() {
     setTimeout(() => {
@@ -33,6 +49,8 @@ class IndexPage extends React.Component {
         isVisible: true,
       })
     }, 1000)
+
+    this.countdown()
   }
 
   render() {
@@ -219,15 +237,20 @@ class IndexPage extends React.Component {
               </div>
               <div className="column"></div>
             </div>
-            <div className="columns">
+            <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
-                <div className='column'><a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' className="regButton">THE KNOT</a></div>
-                <div className='column'><a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' className="regButton">TARGET</a></div>
-                <div className='column'><a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' className="regButton">BED BATH & BEYOND</a></div>
-                  
+                <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
+                <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
+                <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">BED BATH & BEYOND</a>
               </div>
               <div className="column"></div>
+            </div>
+            <div className='countdown'>
+              <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
+              <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
+              <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
+              <span className='countNumber'>{this.state.seconds}</span> <span className='countText'>SECONDS </span>
             </div>
           </div>
         </Layout>
