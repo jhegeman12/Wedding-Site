@@ -71,9 +71,9 @@ class IndexPage extends React.Component {
             </div>
             <div className="container">
               <div className="about">
-                <div className="columns" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
-                  <div className="column" >
-                    <p className="nameTitle">TOM SETTLE</p>
+                <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
+                  <div className="ourStory" >
+                    <p className="nameTitle">TOM & DANIELLE</p>
                     <p className="descText">
                       Loremipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -93,27 +93,7 @@ class IndexPage extends React.Component {
                       officia deserunt mollit anim id est laborum.
                     </p>
                   </div>
-                  <div className="column">
-                    <p className="nameTitle">DANIELLE EVANS</p>
-                    <p className="descText">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum. Lorem ipsum
-                      dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
+                  
                 </div>
                 </div>
                 </div>
@@ -131,21 +111,16 @@ class IndexPage extends React.Component {
                   
                 </div>
                   
-                <div className='container '>
-                <div className="columns floats">
-                  <div className="column" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+                <div className='container images'>
+                  <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <Image />
                   </div>
-                  <div className="column">
                     <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
                       <Image2 />
                     </div>
                     <div className="floatImg2" data-sal="fade-in" data-sal-delay="900" data-sal-easing="ease" data-sal-duration='1000'>
                       <Image3 />
                     </div>
-                    
-                  </div>
-                </div>
                 </div>
               
             
@@ -237,7 +212,7 @@ class IndexPage extends React.Component {
               </div>
               <div className="column"></div>
             </div>
-            <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+            <div className="columns" data-sal="fade-in"  data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
