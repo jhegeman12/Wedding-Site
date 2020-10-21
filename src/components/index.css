@@ -73,13 +73,24 @@
   font-weight: 300;
 }
 
+.mtn {
+  width: 100%;
+  background-color: rgb(243, 242, 241);
+}
+
 .quote {
+  margin: 30px;
   line-height: 30px;
+  padding: 15px;
   font-family: "Amatic SC", cursive;
   font-size: 30px;
   font-weight: 700;
   border-top: 2px solid rgb(0, 49, 21);
   border-bottom: 2px solid rgb(0, 49, 21);
+}
+
+.floats {
+  padding: 10px;
 }
 
 .floatImg {
@@ -162,6 +173,22 @@
 .regText {
   font-family: "Epilogue", sans-serif;
   font-weight: 300;
+}
+
+.regButton {
+  margin-top: 50px;
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+  padding: 15px;
+  color: rgb(86, 105, 79);
+  border: 3px solid rgb(86, 105, 79);
+  transition: 0.2s;
+}
+
+.regButton:hover {
+  background-color: rgb(86, 105, 79);
+  color: white;
+  border: 3px solid rgb(86, 105, 79);
 }
 
 @media screen and (max-width: 450px) {

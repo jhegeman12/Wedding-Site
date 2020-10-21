@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import Image2 from "../components/image2"
 import Image3 from "../components/image3"
+import Image4 from '../components/mtnImg' 
 import SEO from "../components/seo"
 import "../components/index.css"
 import "../components/mystyles.scss"
@@ -96,16 +97,24 @@ class IndexPage extends React.Component {
                     </p>
                   </div>
                 </div>
-                <div className="about">
+                </div>
+                </div>
+                <div className="mtn .container.is-fullhd">
+                  
                   <div className="columns">
-                    <div className="column"></div>
-                    <div className="quote column is-one-quarter">
+                    <div className='column'></div>
+                    <div className='column is-one-quarter'><div className="quote">
                       the greatest adventure is not where you go but who you are
                       with.
-                    </div>
+                    </div></div>
+                    
+                    <div className="column"><Image4></Image4></div>
                   </div>
+                  
                 </div>
-                <div className="columns">
+                  
+                <div className='container '>
+                <div className="columns floats">
                   <div className="column">
                     <Image />
                   </div>
@@ -116,10 +125,12 @@ class IndexPage extends React.Component {
                     <div className="floatImg2">
                       <Image3 />
                     </div>
+                    
                   </div>
                 </div>
-              </div>
-            </div>
+                </div>
+              
+            
             <div className="info .container.is-fullhd">
               <div className="container">
                 <p className="details">WEDDING DETAILS</p>
@@ -205,6 +216,16 @@ class IndexPage extends React.Component {
                   </p>
                 </div>
                 <div className="column"></div>
+              </div>
+              <div className="column"></div>
+            </div>
+            <div className="columns">
+              <div className="column"></div>
+              <div className="timeline column is-two-thirds columns">
+                <div className='column'><a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' className="regButton">THE KNOT</a></div>
+                <div className='column'><a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' className="regButton">TARGET</a></div>
+                <div className='column'><a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' className="regButton">BED BATH & BEYOND</a></div>
+                  
               </div>
               <div className="column"></div>
             </div>
