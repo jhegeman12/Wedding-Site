@@ -53,8 +53,8 @@ class IndexPage extends React.Component {
             </div>
             <div className="container">
               <div className="about">
-                <div className="columns">
-                  <div className="column">
+                <div className="columns" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
+                  <div className="column" >
                     <p className="nameTitle">TOM SETTLE</p>
                     <p className="descText">
                       Loremipsum dolor sit amet, consectetur adipiscing elit,
@@ -101,7 +101,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="mtn .container.is-fullhd">
                   
-                  <div className="columns">
+                  <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <div className='column'></div>
                     <div className='column is-one-quarter'><div className="quote">
                       the greatest adventure is not where you go but who you are
@@ -115,14 +115,14 @@ class IndexPage extends React.Component {
                   
                 <div className='container '>
                 <div className="columns floats">
-                  <div className="column">
+                  <div className="column" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <Image />
                   </div>
                   <div className="column">
-                    <div className="floatImg">
+                    <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
                       <Image2 />
                     </div>
-                    <div className="floatImg2">
+                    <div className="floatImg2" data-sal="fade-in" data-sal-delay="900" data-sal-easing="ease" data-sal-duration='1000'>
                       <Image3 />
                     </div>
                     
@@ -132,7 +132,7 @@ class IndexPage extends React.Component {
               
             
             <div className="info .container.is-fullhd">
-              <div className="container">
+              <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                 <p className="details">WEDDING DETAILS</p>
                 <div className="columns">
                   <div className="column">
@@ -171,7 +171,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="columns">
+            <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <div className="column center">
@@ -202,7 +202,7 @@ class IndexPage extends React.Component {
               </div>
               <div className="column"></div>
             </div>
-            <div className="columns">
+            <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <div className="column">
