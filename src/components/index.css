@@ -20,6 +20,10 @@
   background: #053f13;
 }
 
+.columns {
+  margin: 0;
+}
+
 .cover {
   height: 100vh;
   background-image: url("../images/cover.jpg");
