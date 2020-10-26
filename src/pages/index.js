@@ -164,7 +164,8 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+            <div className="container.is-fullhd" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+              <div className='columns'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <div className="column center">
@@ -194,6 +195,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="column"></div>
+              </div>
             </div>
             <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
