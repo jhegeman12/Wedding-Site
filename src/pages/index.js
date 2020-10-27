@@ -9,6 +9,8 @@ import SEO from "../components/seo"
 import "../components/index.css"
 import "../components/mystyles.scss"
 import posed from "react-pose"
+import BackgroundImage from 'gatsby-background-image'
+import { graphql } from 'gatsby'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -60,7 +62,8 @@ class IndexPage extends React.Component {
         <Layout>
           <SEO title="Tom & Danielle's Wedding" />
           <div className=".container.is-fullhd">
-            <div className="cover ">
+            <div >
+              <BackgroundImage className="cover" fluid={this.props.data.indexImage.childImageSharp.fluid}>
               <div className="coverText">
                 <div className="coverTitle">
                   <span>TOM </span>
@@ -69,6 +72,7 @@ class IndexPage extends React.Component {
                 </div>
                 <p className="coverDesc">ARE GETTING MARRIED AUGUST 21, 2021</p>
               </div>
+              </BackgroundImage>
             </div>
             <div className="container">
               <div className="about">
@@ -244,3 +248,15 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage
+
+export const pageQuery = graphql`
+query {
+  indexImage: file(relativePath: { eq: "cover.jpg"}) {
+    childImageSharp {
+      fluid(quality: 100) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`;
