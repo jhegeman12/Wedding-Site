@@ -27,6 +27,8 @@
 .cover {
   height: 100vh;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .coverText {
@@ -264,7 +266,6 @@
 @media screen and (max-width: 450px) {
   .cover {
     height: 50vh;
-    background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
