@@ -75,7 +75,7 @@ class IndexPage extends React.Component {
               </BackgroundImage>
             </div>
             <div className="container">
-              <div className="about">
+              {/* <div className="about">
                 <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <div className="ourStory" >
                     <p className="nameTitle">TOM & DANIELLE</p>
@@ -100,7 +100,7 @@ class IndexPage extends React.Component {
                   </div>
                   
                 </div>
-                </div>
+                </div> */}
                 </div>
                 <div className="mtn .container.is-fullhd">
                   
@@ -136,34 +136,22 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">CEREMONY</p>
                     <p className="detailsText">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
+                    We will be getting married at our home parish, Our Lady of Mount Carmel (OLMC). OLMC has been very special to us as it’s where we met and where we’ve grown in our relationship and faith together. Father Richard will be the celebrant and mass will begin at 3 PM. 
                     </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">RECEPTION</p>
                     <p className="detailsText">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
+                    After mass, please join us for cocktail hour starting at 5:30 PM at The Bluff’s at Conner Prairie. The reception will follow, starting at 6:30 PM. 
                     </p>
                   </div>
                   <div className="column">
-                    <p className="detailsSub">ACCOMODATION</p>
+                    <p className="detailsSub">ACCOMODATIONS</p>
                     <p className="detailsText">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
+                    We have set aside blocks of rooms at hotels near the church and venue for out of town guests. Please mention the Evans-Settle wedding to book a room in our block. 
+                    <p className="acLink"><a href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
+                    <p className="acLink"><a href='' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
+                    <p className="acLink"><a href='' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
                     </p>
                   </div>
                 </div>
@@ -176,7 +164,7 @@ class IndexPage extends React.Component {
                 <div className="column center">
                   <FontAwesomeIcon icon={faChurch} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
-                  <p className="timelineTime">2:30 PM</p>
+                  <p className="timelineTime">3:00 PM</p>
                 </div>
                 <div className="column center">
                   <FontAwesomeIcon icon={faCocktail} className="iconFA" />
@@ -208,6 +196,44 @@ class IndexPage extends React.Component {
               </div>
             </div>
             
+            {/* Bridal Party */}
+            <div className="info .container.is-fullhd">
+            <div className=" container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+                <p className="details">BRIDAL PARTY</p>
+                <div className="columns">
+                  <div className="column">
+                    <p className="detailsSub">BRIDESMAIDS</p>
+                    <p className='nameContainer'><span className='nameText'>Paige Evans - </span><span className='nameSubText'>Maid of Honor</span></p>
+                    <p className='nameContainer'><span className='nameText'>Grace O'hair - </span><span className='nameSubText'>Maid of Honor</span></p>
+                    <p className='nameContainer'><span className='nameText'>Elizabeth Settle</span></p>
+                    <p className='nameContainer'><span className='nameText'>Melissa Settle</span></p>
+                    <p className='nameContainer'><span className='nameText'>Emily Henkel</span></p>
+                    <p className='nameContainer'><span className='nameText'>Kristina Wieschhaus</span></p>
+                    <p className='nameContainer'><span className='nameText'>Abbi Brabender</span></p>
+                    <p className='nameContainer'><span className='nameText'>Carlie Witsken</span></p>
+                    <p className='nameContainer'><span className='nameText'>Emily Trinca</span></p>
+                    
+                  </div>
+                  <div className="column">
+                    <p className="detailsSub">GROOMSMEN</p>
+                    <p className='nameContainer'><span className='nameText'>Charlie Hicks - </span><span className='nameSubText'>Best Man</span></p>
+                    <p className='nameContainer'><span className='nameText'>James Molin</span></p>
+                    <p className='nameContainer'><span className='nameText'>Luke Titus</span></p>
+                    <p className='nameContainer'><span className='nameText'>Peter St. Amand</span></p>
+                    <p className='nameContainer'><span className='nameText'>Adam Kaufman</span></p>
+                    <p className='nameContainer'><span className='nameText'>Jack McGrath</span></p>
+                    <p className='nameContainer'><span className='nameText'>Carl Nickander</span></p>
+                    <p className='nameContainer'><span className='nameText'>Patrick Hamilton</span></p>
+                    <p className='nameContainer'><span className='nameText'>Rhys Ivory-Ganja</span></p>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>  
+              </div> 
+
+
             <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">

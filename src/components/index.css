@@ -149,6 +149,17 @@
   padding: 10px;
 }
 
+.acLink {
+  margin-top: 10px;
+  text-decoration: underline;
+  font-weight: 700;
+  color: rgb(86, 105, 79);
+}
+
+.acLink a {
+  color: rgb(86, 105, 79);
+}
+
 .timeline {
   background-color: white;
   position: relative;
@@ -219,6 +230,18 @@
 
 .mapLink:hover {
   color: rgb(97, 157, 229);
+}
+
+.nameContainer {
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.nameText {
+}
+
+.nameSubText {
+  font-style: italic;
 }
 
 .regTitle {
