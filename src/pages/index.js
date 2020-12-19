@@ -2,8 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import Image2 from "../components/image2"
-import Image3 from "../components/image3"
+
 import Image4 from '../components/mtnImg' 
 import SEO from "../components/seo"
 import "../components/index.css"
@@ -120,12 +119,12 @@ class IndexPage extends React.Component {
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <Image />
                   </div>
-                    <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
+                    {/* <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
                       <Image2 />
                     </div>
                     <div className="floatImg2" data-sal="fade-in" data-sal-delay="900" data-sal-easing="ease" data-sal-duration='1000'>
                       <Image3 />
-                    </div>
+                    </div> */}
                 </div>
               
             
@@ -149,9 +148,9 @@ class IndexPage extends React.Component {
                     <p className="detailsSub">ACCOMODATIONS</p>
                     <p className="detailsText">
                     We have set aside blocks of rooms at hotels near the church and venue for out of town guests. Please mention the Evans-Settle wedding to book a room in our block. 
-                    <p className="acLink"><a href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
-                    <p className="acLink"><a href='' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
-                    <p className="acLink"><a href='' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
+                    <p className="acLink"><a rel="noreferrer" href='' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
+                    <p className="acLink"><a rel="noreferrer" href='' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
                     </p>
                   </div>
                 </div>
@@ -240,11 +239,7 @@ class IndexPage extends React.Component {
                 <div className="column">
                   <p className="regTitle">REGISTRY</p>
                   <p className="regText">
-                    Everything we put on our registery are things we'll love,
-                    but honestly, the most important gift you can bring us is
-                    having you and your dancing shoes at our celebration. We are
-                    pumped to spend out special day with you and are very
-                    blessed to have you in our lives.
+                  While everything on our registry are things we'll love, the most important gift we can receive is the chance to celebrate with you. We are so excited to share our special day with you and feel very blessed to have you in our lives!
                   </p>
                 </div>
                 <div className="column"></div>
@@ -254,9 +249,9 @@ class IndexPage extends React.Component {
             <div className="columns" data-sal="fade-in"  data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
+                <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
+                <a href='https://www.target.com/gift-registry/giftgiver?registryId=66cf6664801247aa8e1f12ec5e5d9bb3&lnk=registry_custom_url' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
                 <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
-                <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
-                <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">BED BATH & BEYOND</a>
               </div>
               <div className="column"></div>
             </div>

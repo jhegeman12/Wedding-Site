@@ -26,9 +26,6 @@
 
 .cover {
   height: 100vh;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
 }
 
 .coverText {
@@ -94,32 +91,29 @@
 
 .images {
   padding: 22px;
-  padding-bottom: 10%;
+  padding-bottom: 30px;
 }
 
 .bigImg {
-  height: 50%;
-  width: 50%;
-  position: relative;
-  margin-bottom: -5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
+  width: 100%;
 }
 
 .floatImg {
-  height: 30%;
-  width: 30%;
+  height: 40%;
+  width: 40%;
   position: relative;
-  left: 40%;
+  left: 25%;
   margin-bottom: -30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .floatImg2 {
-  height: 30%;
-  width: 30%;
+  height: 50%;
+  width: 50%;
   position: relative;
-  left: 70%;
-
+  left: 63%;
+  top: -20rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -289,10 +283,9 @@
 @media screen and (max-width: 450px) {
   .cover {
     height: 50vh;
-    background-size: cover;
+
     background-position: top;
     background-attachment: fixed;
-    background-size: auto 50vh;
   }
 
   .coverText {
