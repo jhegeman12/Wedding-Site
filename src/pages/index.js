@@ -147,10 +147,10 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">ACCOMODATIONS</p>
                     <p className="detailsText">
-                    We have set aside blocks of rooms at hotels near the church and venue for out of town guests. Please mention the Evans-Settle wedding to book a room in our block. 
+                    We have set aside blocks of rooms at hotels near the church and venue for out of town guests. Please mention the Evans-Settle wedding to book a room in our block, or visit the links below. 
                     <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
                     <p className="acLink"><a rel="noreferrer" href='' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
-                    <p className="acLink"><a rel="noreferrer" href='' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1609773039533&key=GRP&app=resvlink' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
                     </p>
                   </div>
                 </div>
