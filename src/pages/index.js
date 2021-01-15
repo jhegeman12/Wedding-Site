@@ -206,7 +206,7 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">BRIDESMAIDS</p>
                     <p className='nameContainer'><span className='nameText'>Paige Evans - </span><span className='nameSubText'>Maid of Honor</span></p>
-                    <p className='nameContainer'><span className='nameText'>Grace O'hair - </span><span className='nameSubText'>Maid of Honor</span></p>
+                    <p className='nameContainer'><span className='nameText'>Grace O'Hair - </span><span className='nameSubText'>Maid of Honor</span></p>
                     <p className='nameContainer'><span className='nameText'>Elizabeth Settle</span></p>
                     <p className='nameContainer'><span className='nameText'>Melissa Settle</span></p>
                     <p className='nameContainer'><span className='nameText'>Emily Henkel</span></p>
