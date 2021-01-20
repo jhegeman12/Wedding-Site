@@ -209,7 +209,7 @@ class IndexPage extends React.Component {
                     <p className='nameContainer'><span className='nameText'>Grace O'Hair - </span><span className='nameSubText'>Maid of Honor</span></p>
                     <p className='nameContainer'><span className='nameText'>Elizabeth Settle</span></p>
                     <p className='nameContainer'><span className='nameText'>Melissa Settle</span></p>
-                    <p className='nameContainer'><span className='nameText'>Emily Henkel</span></p>
+                    <p className='nameContainer'><span className='nameText'>Emily Pharis</span></p>
                     <p className='nameContainer'><span className='nameText'>Kristina Wieschhaus</span></p>
                     <p className='nameContainer'><span className='nameText'>Abbi Brabender</span></p>
                     <p className='nameContainer'><span className='nameText'>Carlie Witsken</span></p>
