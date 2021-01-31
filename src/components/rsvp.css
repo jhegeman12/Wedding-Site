@@ -1,0 +1,17 @@
+.rsvpPage {
+  min-height: 100vh;
+  background-color: rgb(86, 105, 79);
+  text-align: center;
+}
+
+.rsvpText {
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.rsvpDescText {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+  color: white;
+}

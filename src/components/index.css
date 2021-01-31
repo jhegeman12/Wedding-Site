@@ -89,6 +89,31 @@
   border-bottom: 2px solid rgb(0, 49, 21);
 }
 
+.rsvp {
+  text-align: center;
+  position: relative;
+  top: -10px;
+  background-color: rgb(86, 105, 79);
+}
+
+.rsvpButton {
+  background-color: white;
+  margin-right: 20px;
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+  padding: 15px 45px 15px 45px;
+  color: rgb(86, 105, 79);
+  border: 3px solid rgb(86, 105, 79);
+  transition: 0.2s;
+  text-align: center;
+}
+
+.rsvpButton:hover {
+  background-color: rgb(86, 105, 79);
+  color: white;
+  border: 3px solid rgb(86, 105, 79);
+}
+
 .images {
   padding: 22px;
   padding-bottom: 30px;
