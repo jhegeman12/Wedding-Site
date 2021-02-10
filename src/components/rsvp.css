@@ -1,17 +1,66 @@
 .rsvpPage {
-  min-height: 100vh;
+  font-family: "Epilogue", sans-serif;
   background-color: rgb(86, 105, 79);
+  min-height: 100vh;
+}
+
+.formContainer {
+  background-color: white;
+  box-shadow: 5px 10px 18px #3a3a3a;
+  border-radius: 3px;
+  position: relative;
+  top: 50px;
+  height: 80vh;
+  margin: 0px 15px 0px 15px;
+}
+
+.formRsvp {
   text-align: center;
 }
 
-.rsvpText {
-  font-family: "Bowlby One", cursive;
+.rsvpInput {
+  line-height: 3;
+  margin: 10px;
   font-size: 20px;
-  color: white;
 }
 
-.rsvpDescText {
-  font-family: "Epilogue", sans-serif;
-  font-weight: 300;
+.formButton {
+  margin: 0 auto;
+  display: block;
+  font-family: "Bowlby One", cursive;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  color: rgb(86, 105, 79);
+  border: 1px solid rgb(86, 105, 79);
+  transition: 0.2s;
+  text-align: center;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.formButton:hover {
+  background-color: rgb(86, 105, 79);
   color: white;
+  border: 1px solid rgb(86, 105, 79);
+}
+
+.searchResult {
+  margin: 30px;
+  padding: 10px;
+}
+
+.party {
+  border-bottom: 1px solid rgb(214, 214, 214);
+  font-weight: 300;
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.guestBox {
+  margin-left: 20px;
+  padding: 20px;
+  border-left: 1px solid rgb(214, 214, 214);
+  border-bottom: 1px solid rgb(214, 214, 214);
+  border-radius: 3px;
 }

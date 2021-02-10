@@ -6,6 +6,7 @@ import { faThList } from "@fortawesome/free-solid-svg-icons"
 class RSVP extends React.Component{
 
     state = {
+        party: "",
         body: [],
         firstName: "", 
         lastName: ""
@@ -23,7 +24,7 @@ class RSVP extends React.Component{
             e.preventDefault()
             axios.get(`http://localhost:3000/rsvp/${this.state.firstName}/${this.state.lastName}`)
             .then(response => {
-                this.setState({"body": response.data})
+                this.setState({"party": response.data[0].party, "body": response.data})
             })
             .catch(error => {
                 console.log(error);
@@ -32,17 +33,26 @@ class RSVP extends React.Component{
   
     render() {
         return (
-            <div className='rsvpPage'>
-                <form onSubmit={this.getGuest}>
-                    <input onChange={this.handleFirstNameChange} value={this.state.firstName}></input>
-                    <input onChange={this.handleLastNameChange} value={this.state.lastName}></input>
-                    <input type="submit" value="Submit" />
+            <div className='rsvpPage .container.is-fullhd columns'>
+                <div className="formContainer column is-one-third is-offset-one-third">
+                <form onSubmit={this.getGuest} className='formRsvp'>
+                    <input className='rsvpInput' placeholder="First Name" onChange={this.handleFirstNameChange} value={this.state.firstName}></input>
+                    <input className='rsvpInput' placeholder="Last Name" onChange={this.handleLastNameChange} value={this.state.lastName}></input>
+                    <button className='formButton' type="submit" value="Submit">Search</button>
                 </form>
-                <div>{this.state.body.map((guest, i) => {
+                <div className='searchResult'>
+                    <p className="party">{this.state.party ? "Party: " + this.state.party : ""}</p>
+                    {this.state.body.map((guest, i) => {
                     return(
-                    <h1 key={i}>{guest.firstName}</h1>
+                        <div className='guestBox'>
+                            <span className='firstName' key={i}>{guest.firstName}</span>
+                            <span className='lastName' key={i}> {guest.lastName}</span>
+        
+                        </div>
                     )
-                })}</div>
+                })}
+                </div>
+                </div>
             </div>
         )
     }
