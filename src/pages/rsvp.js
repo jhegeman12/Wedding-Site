@@ -22,7 +22,7 @@ class RSVP extends React.Component{
 
     getGuest = (e) => {
             e.preventDefault()
-            axios.get(`http://localhost:3000/rsvp/${this.state.firstName}/${this.state.lastName}`)
+            axios.get(`http://localhost:3000/rsvp/${this.state.firstName.toLowerCase()}/${this.state.lastName.toLowerCase()}`)
             .then(response => {
                 this.setState({"party": response.data[0].party, "body": response.data})
             })
@@ -35,18 +35,21 @@ class RSVP extends React.Component{
         return (
             <div className='rsvpPage .container.is-fullhd columns'>
                 <div className="formContainer column is-one-third is-offset-one-third">
+                    <p>Please enter your first and last name as shown on the invite and we will pull up your party name.</p>
                 <form onSubmit={this.getGuest} className='formRsvp'>
-                    <input className='rsvpInput' placeholder="First Name" onChange={this.handleFirstNameChange} value={this.state.firstName}></input>
-                    <input className='rsvpInput' placeholder="Last Name" onChange={this.handleLastNameChange} value={this.state.lastName}></input>
-                    <button className='formButton' type="submit" value="Submit">Search</button>
+                    <div className='columns'>
+                    <input className='rsvpInput column' placeholder="FIRST NAME" onChange={this.handleFirstNameChange} value={this.state.firstName}></input>
+                    <input className='rsvpInput2 column' placeholder="LAST NAME" onChange={this.handleLastNameChange} value={this.state.lastName}></input>
+                    </div>
+                    <button className='formButton' type="submit" value="Submit">SEARCH</button>
                 </form>
                 <div className='searchResult'>
                     <p className="party">{this.state.party ? "Party: " + this.state.party : ""}</p>
                     {this.state.body.map((guest, i) => {
                     return(
                         <div className='guestBox'>
-                            <span className='firstName' key={i}>{guest.firstName}</span>
-                            <span className='lastName' key={i}> {guest.lastName}</span>
+                            <span className='firstName' key={i}>{guest.firstName.toUpperCase()}</span>
+                            <span className='lastName' key={i}> {guest.lastName.toUpperCase()}</span>
         
                         </div>
                     )
