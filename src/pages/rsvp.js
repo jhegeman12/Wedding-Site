@@ -1,7 +1,13 @@
 import React from "react"
 import axios from "axios"
 import '../components/rsvp.css'
-import { faThList } from "@fortawesome/free-solid-svg-icons"
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
+import Favorite from '@material-ui/icons/Favorite';
+import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+import { RepeatOneSharp, ThreeSixtySharp } from "@material-ui/icons";
+import { faThList } from "@fortawesome/free-solid-svg-icons";
 
 class RSVP extends React.Component{
 
@@ -18,6 +24,140 @@ class RSVP extends React.Component{
 
     handleLastNameChange = (e) => {
         this.setState({lastName: e.target.value})
+    }
+
+    handleAttendanceChange = (i) => {
+        this.setState(state => {
+            const body = state.body.map((guest, j) => {
+                if (j === i) {
+                    const newGuest = {
+                        _id: guest._id,
+                        attending: !guest.attending,
+                        date: guest.date,
+                        firstName: guest.firstName,
+                        lastName: guest.lastName,
+                        meal: guest.meal,
+                        party: guest.party,
+                        veggieChecked: guest.veggieChecked,
+                        chickenChecked: guest.chickenChecked
+                    }
+                    return newGuest
+                      
+                } else {
+                    return guest
+                }
+            })
+
+            return {
+                body
+            }
+        })
+    }
+
+    handleVeggieChange = (i, food) => {
+        this.setState(state => {
+            const body = state.body.map((guest, j) => {
+                if (j === i) {
+                    if (guest.chickenChecked) {
+                        const newGuest = {
+                            _id: guest._id,
+                            attending: guest.attending,
+                            date: guest.date,
+                            firstName: guest.firstName,
+                            lastName: guest.lastName,
+                            meal: food,
+                            party: guest.party,
+                            veggieChecked: !guest.veggieChecked,
+                            chickenChecked: false
+                        }
+                        return newGuest
+                    } else {
+                        const newGuest = {
+                            _id: guest._id,
+                            attending: guest.attending,
+                            date: guest.date,
+                            firstName: guest.firstName,
+                            lastName: guest.lastName,
+                            meal: food,
+                            party: guest.party,
+                            veggieChecked: !guest.veggieChecked,
+                            chickenChecked: guest.chickenChecked
+                        }
+                        return newGuest
+                    }
+                    
+                      
+                } else {
+                    return guest
+                }
+            })
+
+            return {
+                body
+            }
+        })
+    }
+
+    handleChickenChange = (i, food) => {
+        this.setState(state => {
+            const body = state.body.map((guest, j) => {
+                if (j === i) {
+                    if (guest.veggieChecked) {
+                        const newGuest = {
+                            _id: guest._id,
+                            attending: guest.attending,
+                            date: guest.date,
+                            firstName: guest.firstName,
+                            lastName: guest.lastName,
+                            meal: food,
+                            party: guest.party,
+                            veggieChecked: false,
+                            chickenChecked: !guest.chickenChecked
+                        }
+                        return newGuest
+                    } else {
+                        const newGuest = {
+                            _id: guest._id,
+                            attending: guest.attending,
+                            date: guest.date,
+                            firstName: guest.firstName,
+                            lastName: guest.lastName,
+                            meal: food,
+                            party: guest.party,
+                            veggieChecked: guest.veggieChecked,
+                            chickenChecked: !guest.chickenChecked
+                        }
+                        return newGuest
+                    }
+                    
+                      
+                } else {
+                    return guest
+                }
+            })
+
+            return {
+                body
+            }
+        })
+    }
+
+    submitForm = (e) => {
+        for (let i = 0; i < this.state.body.length; i++) {
+            axios.post(`http://localhost:3000/rsvp/`, {
+                _id: this.state.body[i]._id,
+                attending: this.state.body[i].attending,
+                meal: this.state.body[i].meal,
+                veggieChecked: this.state.body[i].veggieChecked,
+                chickenChecked: this.state.body[i].chickenChecked
+            })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+        }
     }
 
     getGuest = (e) => {
@@ -46,14 +186,30 @@ class RSVP extends React.Component{
                 <div className='searchResult'>
                     <p className="party">{this.state.party ? "Party: " + this.state.party : ""}</p>
                     {this.state.body.map((guest, i) => {
-                    return(
-                        <div className='guestBox'>
-                            <span className='firstName' key={i}>{guest.firstName.toUpperCase()}</span>
-                            <span className='lastName' key={i}> {guest.lastName.toUpperCase()}</span>
-        
-                        </div>
-                    )
+
+                        return(
+                            <div key={i} className='guestBox'>
+                                <span className='firstName'>{guest.firstName.toUpperCase()}</span>
+                                <span className='lastName'> {guest.lastName.toUpperCase()}</span>
+                                
+                                <FormControlLabel className='attending' control={<Checkbox checked={this.state.body[i].attending} onClick={() => this.handleAttendanceChange(i)} icon={<FavoriteBorder />} checkedIcon={<Favorite />} ></Checkbox>} label="ATTENDING?"></FormControlLabel>
+                                <FormGroup className='group'>
+                                    <FormControlLabel
+                                        control={<Checkbox name="veggie" checked={this.state.body[i].veggieChecked} onChange={() => this.handleVeggieChange(i, "veggie")} />}
+                                        label="Veggie"
+                                    />
+                                    <FormControlLabel
+                                        control={<Checkbox name="chicken" checked={this.state.body[i].chickenChecked} onChange={() => this.handleChickenChange(i, "chicken")} />}
+                                        label="Chicken"
+                                    />
+                                    
+                                </FormGroup>
+                            </div>
+                        )
                 })}
+                <div className={this.state.party ? 'submitGroup' : 'none'}>
+                    <button onClick={() => this.submitForm()} className='formButtonSubmit' type="submit" value="Submit">SUBMIT</button>
+                </div>
                 </div>
                 </div>
             </div>
