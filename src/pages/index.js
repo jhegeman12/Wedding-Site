@@ -277,7 +277,7 @@ export const pageQuery = graphql`
 query {
   indexImage: file(relativePath: { eq: "cover.jpg"}) {
     childImageSharp {
-      fluid(quality: 100) {
+      fluid(quality: 100, maxWidth: 2048) {
         ...GatsbyImageSharpFluid
       }
     }
