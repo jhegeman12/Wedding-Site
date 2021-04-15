@@ -32,7 +32,7 @@ class IndexPage extends React.Component {
   countdown = () => {
     let countDownDate = new Date("Aug 21, 2021 15:00:00").getTime()
 
-    const x = setInterval(() => {
+    setInterval(() => {
       let now = new Date().getTime()
       let distance = countDownDate - now
 

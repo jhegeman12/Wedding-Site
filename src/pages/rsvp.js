@@ -6,8 +6,6 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
-import { RepeatOneSharp, ThreeSixtySharp } from "@material-ui/icons";
-import { faThList } from "@fortawesome/free-solid-svg-icons";
 
 class RSVP extends React.Component{
 
@@ -144,7 +142,7 @@ class RSVP extends React.Component{
 
     submitForm = (e) => {
         for (let i = 0; i < this.state.body.length; i++) {
-            axios.post(`http://localhost:3000/rsvp/`, {
+            axios.post(`https://tomanddanielle-rsvp.herokuapp.com/rsvp/`, {
                 _id: this.state.body[i]._id,
                 attending: this.state.body[i].attending,
                 meal: this.state.body[i].meal,
@@ -162,7 +160,7 @@ class RSVP extends React.Component{
 
     getGuest = (e) => {
             e.preventDefault()
-            axios.get(`http://localhost:3000/rsvp/${this.state.firstName.toLowerCase()}/${this.state.lastName.toLowerCase()}`)
+            axios.get(`https://tomanddanielle-rsvp.herokuapp.com/rsvp/${this.state.firstName.toLowerCase()}/${this.state.lastName.toLowerCase()}`)
             .then(response => {
                 this.setState({"party": response.data[0].party, "body": response.data})
             })
