@@ -5,7 +5,7 @@ import '../components/rsvp.css'
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import { Backdrop, CircularProgress, FormLabel } from "@material-ui/core";
+import { FormLabel } from "@material-ui/core";
 
 class RSVP extends React.Component{
 
@@ -222,7 +222,7 @@ class RSVP extends React.Component{
         document.getElementById('searchError2').style.display = "none"
 
         for (let i = 0; i < this.state.body.length; i++) {
-            if (this.state.body[i].attendingChecked && !this.state.body[i].veggieChecked && !this.state.body[i].chickenChecked || !this.state.body[i].attendingChecked && !this.state.body[i].declineChecked) {
+            if ((this.state.body[i].attendingChecked && !this.state.body[i].veggieChecked && !this.state.body[i].chickenChecked) || (!this.state.body[i].attendingChecked && !this.state.body[i].declineChecked)) {
                 document.getElementById('searchError2').style.display = "block"
                 break
             } else {
@@ -243,7 +243,7 @@ class RSVP extends React.Component{
                 })
 
             }
-            if (i == this.state.body.length - 1) {
+            if (i === this.state.body.length - 1) {
                 let attending = 0
                 for (let i = 0; i < this.state.body.length; i ++) {
                     if(this.state.body[i].attending) {
@@ -290,7 +290,7 @@ class RSVP extends React.Component{
                     <button className='formButton' type="submit" value="Submit">SEARCH</button>
                 </form>
                 <div className='searchResult'>
-                    <p className="party">{this.state.party ? this.state.party + " " + "(Party of " + this.state.body.length + ")" : ""}</p>
+                    <p className="party">{this.state.party ? this.state.party + " (Party of " + this.state.body.length + ")" : ""}</p>
                     {this.state.body.map((guest, i) => {
 
                         return(
