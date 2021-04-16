@@ -1,6 +1,6 @@
 .rsvpPage {
   font-family: "Epilogue", sans-serif;
-  background-color: rgb(86, 105, 79);
+  background-color: #ecead9;
   min-height: 100vh;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -8,10 +8,8 @@
 
 .formContainer {
   background-color: white;
-  box-shadow: 5px 10px 18px #3a3a3a;
+  box-shadow: 5px 10px 18px #c4c2c2;
   border-radius: 3px;
-  /* position: relative;
-  top: 50px; */
   height: 50%;
   margin: 0px 15px 0px 15px;
 }
@@ -51,7 +49,6 @@
   text-align: center;
   cursor: pointer;
   margin-right: 10px;
-  /* border-radius: 3px; */
 }
 
 .formButton:hover {
@@ -78,16 +75,48 @@
   border-left: 1px solid rgb(214, 214, 214);
   border-bottom: 1px solid rgb(214, 214, 214);
   border-radius: 3px;
+  display: block;
+}
+
+.group {
+  display: inline-flexbox;
+  margin-top: 10px;
+}
+
+.group2 {
+  display: inline-flexbox;
+  margin-top: 10px;
+  border-top: 1px solid rgb(214, 214, 214);
+  padding-top: 10px;
 }
 
 .firstName {
   font-size: 1.25rem;
   font-weight: 700;
+  border-bottom: 1px solid black;
 }
 
 .lastName {
   font-size: 1.25rem;
   font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+#searchError {
+  color: rgb(182, 28, 28);
+  background-color: rgb(243, 194, 194);
+  margin-bottom: 10px;
+  border: 1px solid rgb(182, 28, 28);
+  display: none;
+}
+
+#searchError2 {
+  color: rgb(182, 28, 28);
+  background-color: rgb(243, 194, 194);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(182, 28, 28);
+  display: none;
 }
 
 .attending {
@@ -103,10 +132,6 @@
   width: 100%;
   position: relative;
   top: 20px;
-}
-
-.group {
-  width: 100%;
 }
 
 .submitGroup {
