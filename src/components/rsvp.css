@@ -1,0 +1,166 @@
+.rsvpPage {
+  font-family: "Epilogue", sans-serif;
+  background-color: #ecead9;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.formContainer {
+  background-color: white;
+  box-shadow: 5px 10px 18px #c4c2c2;
+  border-radius: 3px;
+  height: 50%;
+  margin: 0px 15px 0px 15px;
+}
+
+.formRsvp {
+  text-align: center;
+}
+
+.rsvpInput {
+  width: 100%;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.rsvpInput2 {
+  width: 100%;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.formButton {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  font-family: "Bowlby One", cursive;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border: 1px solid rgb(86, 105, 79);
+  background-color: rgb(86, 105, 79);
+  transition: 0.2s;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.formButton:hover {
+  background-color: white;
+  color: rgb(86, 105, 79);
+}
+
+.searchResult {
+  margin: 30px;
+  padding: 10px;
+}
+
+.party {
+  border-bottom: 1px solid rgb(214, 214, 214);
+  font-weight: 300;
+  font-family: "Bowlby One", cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.guestBox {
+  margin-left: 20px;
+  padding: 20px;
+  border-left: 1px solid rgb(214, 214, 214);
+  border-bottom: 1px solid rgb(214, 214, 214);
+  border-radius: 3px;
+  display: block;
+}
+
+.group {
+  display: inline-flexbox;
+  margin-top: 10px;
+}
+
+.group2 {
+  display: inline-flexbox;
+  margin-top: 10px;
+  border-top: 1px solid rgb(214, 214, 214);
+  padding-top: 10px;
+}
+
+.firstName {
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+.lastName {
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+#searchError {
+  color: rgb(182, 28, 28);
+  background-color: rgb(243, 194, 194);
+  margin-bottom: 10px;
+  border: 1px solid rgb(182, 28, 28);
+  display: none;
+}
+
+#searchError2 {
+  color: rgb(182, 28, 28);
+  background-color: rgb(243, 194, 194);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(182, 28, 28);
+  display: none;
+}
+
+.attending {
+  float: right;
+  border-radius: 3px;
+  /* border: 0.5px solid rgb(245, 0, 87); */
+  padding-right: 7px;
+  position: relative;
+  top: -7px;
+}
+
+.submit {
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.submitGroup {
+  width: 100%;
+  text-align: center;
+}
+
+.formButtonSubmit {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  font-family: "Bowlby One", cursive;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border: 1px solid rgb(86, 105, 79);
+  background-color: rgb(86, 105, 79);
+  transition: 0.2s;
+  text-align: center;
+  cursor: pointer;
+  /* border-radius: 3px; */
+}
+
+.formButtonSubmit:hover {
+  background-color: white;
+  color: rgb(86, 105, 79);
+}
+
+.none {
+  display: none;
+}

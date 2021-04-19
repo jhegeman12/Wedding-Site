@@ -9,7 +9,7 @@ import "../components/index.css"
 import "../components/mystyles.scss"
 import posed from "react-pose"
 import BackgroundImage from 'gatsby-background-image'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -32,7 +32,7 @@ class IndexPage extends React.Component {
   countdown = () => {
     let countDownDate = new Date("Aug 21, 2021 15:00:00").getTime()
 
-    const x = setInterval(() => {
+    setInterval(() => {
       let now = new Date().getTime()
       let distance = countDownDate - now
 
@@ -115,6 +115,10 @@ class IndexPage extends React.Component {
                   
                 </div>
                   
+                {/* RSVP button */}
+                <div className="conatiner rsvp">
+                  <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
+                </div>
                 <div className='container images'>
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <Image />

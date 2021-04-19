@@ -1,0 +1,46 @@
+.containerSuccess {
+  background-color: #ecead9;
+  min-height: 100vh;
+}
+
+.formContainer1 {
+  background-color: white;
+  box-shadow: 5px 10px 18px #c4c2c2;
+  border-radius: 3px;
+  height: 50%;
+  margin: 50px 15px 0px 15px;
+  text-align: center;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.signature {
+  font-style: italic;
+}
+
+.centerParent {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.formButton1 {
+  width: 30%;
+  font-family: "Bowlby One", cursive;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border: 1px solid rgb(86, 105, 79);
+  background-color: rgb(86, 105, 79);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.formButton1:hover {
+  background-color: white;
+  color: rgb(86, 105, 79);
+}
