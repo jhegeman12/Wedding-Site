@@ -18,7 +18,7 @@ class RSVPResponses extends React.Component{
     }
     
     componentDidMount() {
-        axios.get("http://localhost:3000/rsvp")
+        axios.get("https://tomanddanielle-rsvp.herokuapp.com/rsvp")
         .then(res => {
             this.setState({
                 "data": res.data
@@ -27,7 +27,7 @@ class RSVPResponses extends React.Component{
     }
 
     getAttending = () => {
-        axios.get("http://localhost:3000/rsvp/attending")
+        axios.get("https://tomanddanielle-rsvp.herokuapp.com/rsvp/attending")
         .then(res => {
             this.setState({
                 "data": res.data
@@ -36,7 +36,7 @@ class RSVPResponses extends React.Component{
     }
 
     getDecline = () => {
-        axios.get("http://localhost:3000/rsvp/decline")
+        axios.get("https://tomanddanielle-rsvp.herokuapp.com/rsvp/decline")
         .then(res => {
             this.setState({
                 "data": res.data
@@ -45,7 +45,7 @@ class RSVPResponses extends React.Component{
     }
 
     getNoResponse = () => {
-        axios.get("http://localhost:3000/rsvp/no-response")
+        axios.get("https://tomanddanielle-rsvp.herokuapp.com/rsvp/no-response")
         .then(res => {
             this.setState({
                 "data": res.data
