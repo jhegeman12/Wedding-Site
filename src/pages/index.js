@@ -147,6 +147,9 @@ class IndexPage extends React.Component {
                     <p className="detailsText">
                     After mass, please join us for cocktail hour starting at 5:30 PM at The Bluff’s at Conner Prairie. The reception will follow, starting at 6:30 PM. 
                     </p>
+                    <p className="detailsText">
+                    *Note that The Bluffs parking lot will be closed on Sunday, please plan accordingly with driving and parking cars.
+                    </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">ACCOMODATIONS</p>
