@@ -6,6 +6,7 @@ import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import { FormLabel } from "@material-ui/core";
+import { ContactSupportOutlined } from "@material-ui/icons";
 
 class RSVP extends React.Component{
 
@@ -226,8 +227,10 @@ class RSVP extends React.Component{
                 document.getElementById('searchError2').style.display = "block"
                 break
             } else {
+                console.log(this.state.body);
                 axios.post(`https://tomanddanielle-rsvp.herokuapp.com/rsvp/`, {
-                    _id: this.state.body[i]._id,
+                    firstName: this.state.body[i].firstName,
+                    lastName: this.state.body[i].lastName,
                     attending: this.state.body[i].attending,
                     meal: this.state.body[i].meal,
                     date: Date.now(),
