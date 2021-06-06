@@ -230,6 +230,7 @@ class RSVP extends React.Component{
                     _id: this.state.body[i]._id,
                     attending: this.state.body[i].attending,
                     meal: this.state.body[i].meal,
+                    date: Date.now(),
                     veggieChecked: this.state.body[i].veggieChecked,
                     chickenChecked: this.state.body[i].chickenChecked,
                     attendingChecked: this.state.body[i].attendingChecked,
