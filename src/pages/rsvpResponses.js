@@ -8,6 +8,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import { Button } from "@material-ui/core";
+import moment from 'moment';
 
 class RSVPResponses extends React.Component{
 
@@ -43,7 +44,7 @@ class RSVPResponses extends React.Component{
     }
 
     getNoResponse = () => {
-        axios.get("https://tomanddanielle-rsvp.herokuapp.com/rsvp/no-response")
+        axios.get("http://localhost:3000/rsvp/no-response")
         .then(res => {
             this.setState({
                 "data": res.data
@@ -62,8 +63,8 @@ class RSVPResponses extends React.Component{
               minWidth: 170,
             },
             {
-              id: 'meal',
-              label: 'Meal',
+              id: 'date',
+              label: 'RSVP Date',
               minWidth: 170,
             },
         ];
@@ -96,7 +97,7 @@ class RSVPResponses extends React.Component{
                                 <TableCell>{row.firstName + " " + row.lastName}</TableCell>
                                 <TableCell>{row.party}</TableCell>
                                 <TableCell>{row.attending ? "Yes" : row.declineChecked ? "No" : "No Response"}</TableCell>
-                                <TableCell>{row.meal}</TableCell>
+                                <TableCell>{moment(row.date).format('MMMM Do YYYY, h:mm:ss a')}</TableCell>
                             </TableRow>
                         );
                         })}
