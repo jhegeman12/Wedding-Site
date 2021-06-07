@@ -44,7 +44,7 @@ class RSVPResponses extends React.Component{
     }
 
     getNoResponse = () => {
-        axios.get("https://tomanddanielle-rsvp.herokuapp.com/no-response")
+        axios.get("https://tomanddanielle-rsvp.herokuapp.com/rsvp/no-response")
         .then(res => {
             this.setState({
                 "data": res.data
