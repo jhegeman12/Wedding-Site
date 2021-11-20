@@ -168,13 +168,13 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">ACCOMODATIONS</p>
                     <p className="detailsText">
-                    There is no preset block of rooms set aside for the wedding, but there is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount.
+                    There is no preset block of rooms set aside for the wedding, but there is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many Airbnb and Vrbo rentals available in the area. 
                     <br></br>
                     <br></br>
-                    <p style={{fontStyle: 'italic'}}>These blocks will remain open until <span style={{fontWeight: '700'}}>July 19th, 2021.</span></p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
-                    <p className="acLink"><a rel="noreferrer" href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/I/INDCAGI-ESWEDD-20210818/index.jhtml' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1609773039533&key=GRP&app=resvlink' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
+            
+                    <p className="acLink"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1750 Village East Rd, Olympic Valley, CA 96146</p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     </p>
                   </div>
                 </div>
