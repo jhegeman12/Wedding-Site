@@ -201,7 +201,7 @@ class IndexPage extends React.Component {
                     </p>
                   </div>
                   <div className="column">
-                    <p className="detailsSub">ACCOMODATIONS</p>
+                    <p className="detailsSub">Accomodations</p>
                     <p className="detailsText">
                     There is no preset block of rooms set aside for the wedding, but there is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many Airbnb and Vrbo rentals available in the area. 
                     <br></br>
@@ -211,23 +211,23 @@ class IndexPage extends React.Component {
                     <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     </p>
-                    <div className='column'><p className='mapTextTitle'>CEREMONY AND RECEPTION LOCATION</p><a href='https://www.google.com/maps/dir//Olympic+Village+Lodge,+1901+Chamonix+Pl,+Olympic+Valley,+CA+96146' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1901 Chamonix Pl, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3092.0033952619506!2d-120.2354779!3d39.1973716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd93153d07aa7%3A0x840ba1fced7b1670!2sOlympic%20Village%20Lodge!5e0!3m2!1sen!2sus!4v1637384154321!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
+                    <div className='column'><p className='mapTextTitle'>Ceremony Location</p><a href='https://www.google.com/maps/dir//Olympic+Village+Lodge,+1901+Chamonix+Pl,+Olympic+Valley,+CA+96146' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1901 Chamonix Pl, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3092.0033952619506!2d-120.2354779!3d39.1973716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd93153d07aa7%3A0x840ba1fced7b1670!2sOlympic%20Village%20Lodge!5e0!3m2!1sen!2sus!4v1637384154321!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
                   </div>
                 </div>
           
             {/* Bridal Party */}
             <div className="info .container.is-fullhd">
             <div className=" container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                <p className="details">WEDDING</p>
+                <p className="details">Weddign Party</p>
                 <div className="columns">
                   <div className="column">
-                    <p className="detailsSub">MAIDS OF HONOR</p>
+                    <p className="detailsSub">Maids of Honor</p>
                     <p className='nameContainer'><span className='nameText'>Giuliana Kafaf</span></p>
                     <p className='nameContainer'><span className='nameText'>Juliane Wiese</span></p>
                     
                   </div>
                   <div className="column">
-                    <p className="detailsSub">BEST MEN</p>
+                    <p className="detailsSub">Best Men</p>
                     <p className='nameContainer'><span className='nameText'>Nick Hegeman</span></p>
                     <p className='nameContainer'><span className='nameText'>Mike Hegeman</span></p>
                     
