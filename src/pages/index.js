@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
   state = { isVisible: false, days: 0, hours: 0, minutes: 0, seconds: 0 }
 
   countdown = () => {
-    let countDownDate = new Date("Aug 21, 2021 15:00:00").getTime()
+    let countDownDate = new Date("Oct 15, 2022 16:00:00").getTime()
 
     setInterval(() => {
       let now = new Date().getTime()
