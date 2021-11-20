@@ -171,12 +171,12 @@ class IndexPage extends React.Component {
               <div className='column'></div>
               <div className="timeline column is-three-fifths columns">
                 <div className="column center">
-                  <FontAwesomeIcon icon={faChurch} className="iconFA" />
+                  <FontAwesomeIcon icon={faBells} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
                   <p className="timelineTime">4:00 PM</p>
                 </div>
                 <div className="column center">
-                  <FontAwesomeIcon icon={faCocktail} className="iconFA" />
+                  <FontAwesomeIcon icon={faGlassCheers} className="iconFA" />
                   <p className="timelineTitle">Cocktail Hour</p>
                   <p className="timelineTime">5:30 PM</p>
                 </div>
