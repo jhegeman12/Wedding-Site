@@ -157,7 +157,7 @@ class IndexPage extends React.Component {
               <div className='column'></div>
               <div className="timeline column is-three-fifths columns">
                 <div className="column center">
-                  <FontAwesomeIcon icon={faChurch} className="iconFA" />
+                  <FontAwesomeIcon icon={faRing} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
                   <p className="timelineTime">4:00 PM</p>
                 </div>
