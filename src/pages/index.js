@@ -13,10 +13,10 @@ import { graphql, Link } from 'gatsby'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faBells,
+  faSketch,
   faGlassCheers,
   faUtensils,
-  faLandmark,
+  faPlaceOfWorship,
   faMusic,
   faDirections,
 } from "@fortawesome/free-solid-svg-icons"
@@ -139,7 +139,7 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">CEREMONY</p>
                     <p className="detailsText">
-                    We will be getting married at our home parish, Our Lady of Mount Carmel (OLMC). OLMC has been very special to us as it’s where we met and where we’ve grown in our relationship and faith together. Father Richard will be the celebrant and mass will begin at 3 PM. 
+                    We will be getting married in the lawn outside the Olympic Valley Lodge at Palisades Ski Resort in Squaw Valley, California. Palisades and the mountains  Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
                     </p>
                   </div>
                   <div className="column">
@@ -171,7 +171,7 @@ class IndexPage extends React.Component {
               <div className='column'></div>
               <div className="timeline column is-three-fifths columns">
                 <div className="column center">
-                  <FontAwesomeIcon icon={faBells} className="iconFA" />
+                  <FontAwesomeIcon icon={faSketch} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
                   <p className="timelineTime">4:00 PM</p>
                 </div>
@@ -181,7 +181,7 @@ class IndexPage extends React.Component {
                   <p className="timelineTime">5:30 PM</p>
                 </div>
                 <div className="column center">
-                  <FontAwesomeIcon icon={faLandmark} className="iconFA" />
+                  <FontAwesomeIcon icon={faPlaceOfWorship} className="iconFA" />
                   <p className="timelineTitle">Reception</p>
                   <p className="timelineTime">6:30 PM</p>
                 </div>
