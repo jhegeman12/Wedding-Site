@@ -211,29 +211,15 @@ class IndexPage extends React.Component {
                 <p className="details">BRIDAL PARTY</p>
                 <div className="columns">
                   <div className="column">
-                    <p className="detailsSub">BRIDESMAIDS</p>
-                    <p className='nameContainer'><span className='nameText'>Paige Evans - </span><span className='nameSubText'>Maid of Honor</span></p>
-                    <p className='nameContainer'><span className='nameText'>Grace O'Hair - </span><span className='nameSubText'>Maid of Honor</span></p>
-                    <p className='nameContainer'><span className='nameText'>Elizabeth Settle</span></p>
-                    <p className='nameContainer'><span className='nameText'>Melissa Settle</span></p>
-                    <p className='nameContainer'><span className='nameText'>Emily Pharis</span></p>
-                    <p className='nameContainer'><span className='nameText'>Kristina Wieschhaus</span></p>
-                    <p className='nameContainer'><span className='nameText'>Abbi Brabender</span></p>
-                    <p className='nameContainer'><span className='nameText'>Carlie Witsken</span></p>
-                    <p className='nameContainer'><span className='nameText'>Emily Trinca</span></p>
+                    <p className="detailsSub">MAIDS OF HONOR</p>
+                    <p className='nameContainer'><span className='nameText'>Giuliana Kafaf</span></p>
+                    <p className='nameContainer'><span className='nameText'>Juliane Wiese</span></p>
                     
                   </div>
                   <div className="column">
-                    <p className="detailsSub">GROOMSMEN</p>
-                    <p className='nameContainer'><span className='nameText'>Charlie Hicks - </span><span className='nameSubText'>Best Man</span></p>
-                    <p className='nameContainer'><span className='nameText'>James Molin</span></p>
-                    <p className='nameContainer'><span className='nameText'>Luke Titus</span></p>
-                    <p className='nameContainer'><span className='nameText'>Peter St. Amand</span></p>
-                    <p className='nameContainer'><span className='nameText'>Adam Kaufman</span></p>
-                    <p className='nameContainer'><span className='nameText'>Jack McGrath</span></p>
-                    <p className='nameContainer'><span className='nameText'>Carl Nickander</span></p>
-                    <p className='nameContainer'><span className='nameText'>Patrick Hamilton</span></p>
-                    <p className='nameContainer'><span className='nameText'>Rhys Ivory-Ganja</span></p>
+                    <p className="detailsSub">Best Men</p>
+                    <p className='nameContainer'><span className='nameText'>Nick Hegeman</span></p>
+                    <p className='nameContainer'><span className='nameText'>Mike Hegeman</span></p>
                     
                   </div>
                   
