@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Tom & Danielle's Wedding`,
-    description: `A website for Tom and Danielle's big day.`,
-    author: `@tbsett`,
+    title: `Joseph & Mikhaila's Wedding`,
+    description: `A website for Joseph and Mihaila's Wedding.`,
+    author: `@tbsett & @jhegeman12`,
   },
   plugins: [
     `gatsby-plugin-scroll-reveal`,

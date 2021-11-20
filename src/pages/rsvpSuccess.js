@@ -11,7 +11,7 @@ const Success = () => (
         <h1>We are so excited to share our big day with you. Having you there is going to make it all the more special and we cannot wait!</h1> 
         <br />
         <h1 className="signature">Love,
-        Tom & Danielle </h1>
+        Joseph & Mikhaila </h1>
         <br />
         <iframe src="https://giphy.com/embed/vTfFCC3rSfKco" width="100%" height="100%" title="success" frameBorder="0" class="giphy-embed"></iframe>
         <div className='centerParent'>

@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
               {/* <div className="about">
                 <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <div className="ourStory" >
-                    <p className="nameTitle">TOM & DANIELLE</p>
+                    <p className="nameTitle">Joseph & Mikhaila</p>
                     <p className="descText">
                       Loremipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -129,16 +129,16 @@ class IndexPage extends React.Component {
             
             <div className="info .container.is-fullhd">
               <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                <p className="details">Wedding Details</p>
+                <p className="details">Weekend Details</p>
                 <div className="columns">
                   <div className="column">
-                    <p className="detailsSub">Ceremony</p>
+                    <p className="detailsSub">Welcome Ceremony</p>
                     <p className="detailsText">
                     We will be getting married in the lawn adjacent to the Olympic Valley Lodge at Palisades Ski Resort in Olympic Valley, California. Palisades and the mountains hold a special place for us, as we got engaged at the top of Emigrant Gap lift. Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
                     </p>
                   </div>
                   <div className="column">
-                    <p className="detailsSub">Reception</p>
+                    <p className="detailsSub">Ceremony</p>
                     <p className="detailsText">
                     Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.  
                     </p>
@@ -147,7 +147,7 @@ class IndexPage extends React.Component {
                     </p>
                   </div>
                   <div className="column">
-                    <p className="detailsSub">Dress</p>
+                    <p className="detailsSub">Reception</p>
                     <p className="detailsText">
                     We ask that our guests adhere to a formal dress code for the wedding. We recommend bringing a jacket, as the weather can drop to less than 50 after sunset. Although uncommon, it has snowed at this time of year before so please keep an eye on the weather! 
                     </p>

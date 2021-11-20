@@ -11,7 +11,7 @@ const Decline = () => (
             <h1>In the meantime, stay safe and healthy! We hope we will get to see you soon :)</h1>
             <br />
             <h1 className='signature'>Love,
-            Tom & Danielle</h1>
+            Joseph & Mikhaila</h1>
             <div className='centerParent'>
                 <Link to='/'>
                     <button className='formButton1'>RETURN HOME</button>
