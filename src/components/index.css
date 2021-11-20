@@ -40,23 +40,23 @@
 .coverTitle {
   padding: 0px;
   margin: 0px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 600;
-  font-size: 80px;
+  font-family: "Handlee", cursive;
+  font-weight: 700;
+  font-size: 90px;
   color: rgb(255, 255, 255);
 }
 
 .and {
   color: rgb(255, 255, 255);
-  font-family: "Amatic SC", cursive;
+  font-family: "Handlee", cursive;
 }
 
 .coverDesc {
   padding: 0px;
   margin: 0px;
-  font-family: "Amatic SC", cursive;
+  font-family: "Handlee", cursive;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(255, 255, 255);
 }
 
@@ -65,12 +65,12 @@
 }
 
 .nameTitle {
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-size: 20px;
 }
 
 .descText {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Amatic SC", cursive;
   font-weight: 300;
 }
 
