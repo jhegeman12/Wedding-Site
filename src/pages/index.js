@@ -139,22 +139,33 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">CEREMONY</p>
                     <p className="detailsText">
-                    We will be getting married in the lawn outside the Olympic Valley Lodge at Palisades Ski Resort in Squaw Valley, California. Palisades and the mountains  Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
+                    We will be getting married in the lawn outside the Olympic Valley Lodge at Palisades Ski Resort in Olympic Valley, California. Palisades and the mountains hold a special place for us, as we got engaged at the top of Emigrant Gap lift  Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
                     </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">RECEPTION</p>
                     <p className="detailsText">
-                    After mass, please join us for cocktail hour starting at 5:30 PM at The Bluff’s at Conner Prairie. The reception will follow, starting at 6:30 PM. 
+                    Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.  
                     </p>
                     <p className="detailsText">
-                    *Note that The Bluffs parking lot will be closed on Sunday, please plan accordingly with driving and parking cars.
+                    There is available free parking at the lodge.
+                    </p>
+                  <div className="column">
+                    <p className="detailsSub">GETTING HERE</p>
+                    <p className="detailsText">
+                    There is no preset block of rooms set aside for the wedding, but there is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount.
+                    <br></br>
+                    <br></br>
+                    <p style={{fontStyle: 'italic'}}>These blocks will remain open until <span style={{fontWeight: '700'}}>July 19th, 2021.</span></p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
+                    <p className="acLink"><a rel="noreferrer" href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/I/INDCAGI-ESWEDD-20210818/index.jhtml' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1609773039533&key=GRP&app=resvlink' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
                     </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">ACCOMODATIONS</p>
                     <p className="detailsText">
-                    We have set aside blocks of rooms at hotels near the church and venue for out of town guests. Please mention the Evans-Settle wedding to book a room in our block, or visit the links below.
+                    There is no preset block of rooms set aside for the wedding, but there is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount.
                     <br></br>
                     <br></br>
                     <p style={{fontStyle: 'italic'}}>These blocks will remain open until <span style={{fontWeight: '700'}}>July 19th, 2021.</span></p>
