@@ -139,7 +139,7 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">CEREMONY</p>
                     <p className="detailsText">
-                    We will be getting married in the lawn adjacent to the Olympic Valley Lodge at Palisades Ski Resort in Olympic Valley, California. Palisades and the mountains hold a special place for us, as we got engaged at the top of Emigrant Gap lift  Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
+                    We will be getting married in the lawn adjacent to the Olympic Valley Lodge at Palisades Ski Resort in Olympic Valley, California. Palisades and the mountains hold a special place for us, as we got engaged at the top of Emigrant Gap lift. Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
                     </p>
                   </div>
                   <div className="column">
@@ -152,13 +152,24 @@ class IndexPage extends React.Component {
                     </p>
                   </div>
                   <div className="column">
+                    <p className="detailsSub">Dress Code</p>
+                    <p className="detailsText">
+                    We ask that our guests adhere to a formal dress code for the wedding. We recommend bringing a jacket, as the weather can drop to less than 50 after sunset. Although uncommon, it has snowed at this time of year before so please keep an eye on the weather! 
+                    </p>
+
+                  </div>
+                  
+                </div>
+                <div className= 'columns'>
+                 <div className="column">
                     <p className="detailsSub">GETTING HERE</p>
                     <p className="detailsText">
                     The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area REgional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
                     <br></br>
                     <p className="detailsSub">
-                      To Truckee/North Tahoe Area
+                      To Truckee/North Tahoe Area</p>
                     <br></br>
+                    <p className="detailsText">
                     The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.  
                     <p className="acLink"><a rel="noreferrer" href='https://www.amtrak.com/california-zephyr-train' target="_blank">Amtrak - California Zephyr</a></p>
                     <br></br>
@@ -178,7 +189,6 @@ class IndexPage extends React.Component {
                     </p>
                   </div>
                 </div>
-                
               </div>   
               </div>   
               <div className='columns'>
