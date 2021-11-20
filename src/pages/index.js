@@ -223,7 +223,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
       
-            {/* Bridal Party */}
+            {/* Bridal Party 
             <div className="info .container.is-fullhd">
             <div className=" container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                 <p className="details">Weddign Party</p>
@@ -244,7 +244,7 @@ class IndexPage extends React.Component {
                 </div>
                 
               </div>  
-              </div> 
+              </div> */}
 
 
             <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
