@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
           <span role="img" aria-label="heart" aria-labelledby="heart">
             ❤️
           </span>{" "}
-          by Tom & Danielle
+          by Joseph & Mikhaila (with a lot of help from Tom)
         </footer>
       </div>
     </>
