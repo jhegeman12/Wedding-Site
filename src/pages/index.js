@@ -128,26 +128,22 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">Welcome Ceremony</p>
                     <p className="detailsText">
-                    We will be getting married in the lawn adjacent to the Olympic Valley Lodge at Palisades Ski Resort in Olympic Valley, California. Palisades and the mountains hold a special place for us, as we got engaged at the top of Emigrant Gap lift. Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
+                    Please join us at the welcome ceremony the night before the wedding for pizza and beer. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night before the wedding.
+                    <p className='mapTextTitle'>Fireside Pizza</p><a href='https://www.google.com/maps/dir//Fireside+Pizza+Company/' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1985 Squaw Valley Rd # 25, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.0202692132334!2d-120.2368703846407!3d39.19698817952557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd9ec5f912cd9%3A0x503cf512a5f95a8e!2sFireside%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1637450748222!5m2!1sen!2sus" width="600" height="450"loading="lazy"> aria-hidden="false"</iframe>
                     </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
                     <p className="detailsText">
-                    Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.  
-                    </p>
-                    <p className="detailsText">
-                    There is free parking at the lodge.
+                    The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge.
                     </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
                     <p className="detailsText">
-                    We ask that our guests adhere to a formal dress code for the wedding. We recommend bringing a jacket, as the weather can drop to less than 50 after sunset. Although uncommon, it has snowed at this time of year before so please keep an eye on the weather! 
+                    Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food. 
                     </p>
-
                   </div>
-                  
                 </div>
                 
               </div>   
