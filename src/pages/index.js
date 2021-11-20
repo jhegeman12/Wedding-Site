@@ -13,6 +13,7 @@ import { graphql, Link } from 'gatsby'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
+  faPizzaSlice,
   faRing,
   faGlassCheers,
   faUtensils,
@@ -160,6 +161,11 @@ class IndexPage extends React.Component {
               <div className='columns'>
               <div className='column'></div>
               <div className="timeline column is-three-fifths columns">
+                <div className="column center">
+                  <FontAwesomeIcon icon={faPizzaSlice} className="iconFA" />
+                  <p className="timelineTitle">Welcome Ceremony</p>
+                  <p className="timelineTime">10/14, 7:00 PM</p>
+                </div>
                 <div className="column center">
                   <FontAwesomeIcon icon={faRing} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
