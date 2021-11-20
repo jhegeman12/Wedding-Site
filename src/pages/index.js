@@ -105,12 +105,6 @@ class IndexPage extends React.Component {
                 <div className="mtn .container.is-fullhd">
                   
                   <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                    
-                    <div className='column is-one-quarter is-offset-one-quarter'><div className="quote">
-                      the greatest adventure is not where you go but who you are
-                      with.
-                    </div></div>
-                    
                     <div className="column"><Image4></Image4></div>
                   </div>
                   
