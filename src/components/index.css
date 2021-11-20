@@ -145,7 +145,7 @@
 .info {
   width: 100%;
   min-height: 500px;
-  background-color: rgb(236, 234, 217);
+  background-color: rgb(5, 91, 252);
   padding-top: 50px;
   padding-bottom: 80px;
 }
@@ -153,13 +153,13 @@
 .details {
   padding: 10px;
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .detailsSub {
   padding: 10px;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .detailsText {
