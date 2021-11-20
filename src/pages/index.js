@@ -59,17 +59,17 @@ class IndexPage extends React.Component {
     return (
       <Page pose={this.state.isVisible ? "visible" : "hidden"}>
         <Layout>
-          <SEO title="Tom & Danielle's Wedding" />
+          <SEO title="Joseph & Mikhaila's Wedding" />
           <div className=".container.is-fullhd">
             <div >
               <BackgroundImage className="cover" fluid={this.props.data.indexImage.childImageSharp.fluid}>
               <div className="coverText">
                 <div className="coverTitle">
-                  <span>TOM </span>
+                  <span>JOSEPH </span>
                   <span className="and">&</span>
-                  <span> DANIELLE</span>
+                  <span> MIKHAILA</span>
                 </div>
-                <p className="coverDesc">ARE GETTING MARRIED AUGUST 21, 2021</p>
+                <p className="coverDesc">ARE GETTING MARRIED OCTOBER 15, 2022</p>
               </div>
               </BackgroundImage>
             </div>
