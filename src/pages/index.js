@@ -173,7 +173,7 @@ class IndexPage extends React.Component {
                 <div className="column center">
                   <FontAwesomeIcon icon={faChurch} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
-                  <p className="timelineTime">3:00 PM</p>
+                  <p className="timelineTime">4:00 PM</p>
                 </div>
                 <div className="column center">
                   <FontAwesomeIcon icon={faCocktail} className="iconFA" />
