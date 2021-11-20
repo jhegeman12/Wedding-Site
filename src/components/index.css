@@ -93,7 +93,7 @@
   text-align: center;
   position: relative;
   top: -10px;
-  background-color: rgb(86, 105, 79);
+  background-color: rgb(2, 27, 74);
 }
 
 .rsvpButton {
@@ -102,16 +102,16 @@
   font-family: "Bowlby One", cursive;
   font-size: 20px;
   padding: 15px 45px 15px 45px;
-  color: rgb(86, 105, 79);
-  border: 3px solid rgb(86, 105, 79);
+  color: rgb(2, 27, 74);
+  border: 3px solid rgb(245, 181, 132);
   transition: 0.2s;
   text-align: center;
 }
 
 .rsvpButton:hover {
-  background-color: rgb(86, 105, 79);
+  background-color: rgb(2, 27, 74);
   color: white;
-  border: 3px solid rgb(86, 105, 79);
+  border: 3px solid rgb(2, 27, 74);
 }
 
 .images {
@@ -276,16 +276,16 @@
   font-family: "Bowlby One", cursive;
   font-size: 20px;
   padding: 15px;
-  color: rgb(86, 105, 79);
-  border: 3px solid rgb(86, 105, 79);
+  color: rgb(2, 27, 74);
+  border: 3px solid rgb(245, 181, 132);
   transition: 0.2s;
   text-align: center;
 }
 
 .regButton:hover {
-  background-color: rgb(86, 105, 79);
+  background-color: rgb(2, 27, 74);
   color: white;
-  border: 3px solid rgb(86, 105, 79);
+  border: 3px solid rgb(2, 27, 74);
 }
 
 .countdown {

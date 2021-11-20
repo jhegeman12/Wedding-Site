@@ -13,10 +13,10 @@ import { graphql, Link } from 'gatsby'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faChurch,
-  faCocktail,
+  faSketch,
+  faGlassCheers,
   faUtensils,
-  faLandmark,
+  faPlaceOfWorship,
   faMusic,
   faDirections,
 } from "@fortawesome/free-solid-svg-icons"
@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
   state = { isVisible: false, days: 0, hours: 0, minutes: 0, seconds: 0 }
 
   countdown = () => {
-    let countDownDate = new Date("Aug 21, 2021 15:00:00").getTime()
+    let countDownDate = new Date("Oct 15, 2022 16:00:00").getTime()
 
     setInterval(() => {
       let now = new Date().getTime()
@@ -59,17 +59,17 @@ class IndexPage extends React.Component {
     return (
       <Page pose={this.state.isVisible ? "visible" : "hidden"}>
         <Layout>
-          <SEO title="Tom & Danielle's Wedding" />
+          <SEO title="Joseph & Mikhaila's Wedding" />
           <div className=".container.is-fullhd">
             <div >
               <BackgroundImage className="cover" fluid={this.props.data.indexImage.childImageSharp.fluid}>
               <div className="coverText">
                 <div className="coverTitle">
-                  <span>TOM </span>
+                  <span>JOSEPH </span>
                   <span className="and">&</span>
-                  <span> DANIELLE</span>
+                  <span> MIKHAILA</span>
                 </div>
-                <p className="coverDesc">ARE GETTING MARRIED AUGUST 21, 2021</p>
+                <p className="coverDesc">ARE GETTING MARRIED OCTOBER 15, 2022</p>
               </div>
               </BackgroundImage>
             </div>
@@ -139,7 +139,7 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">CEREMONY</p>
                     <p className="detailsText">
-                    We will be getting married at our home parish, Our Lady of Mount Carmel (OLMC). OLMC has been very special to us as it’s where we met and where we’ve grown in our relationship and faith together. Father Richard will be the celebrant and mass will begin at 3 PM. 
+                    We will be getting married in the lawn outside the Olympic Valley Lodge at Palisades Ski Resort in Squaw Valley, California. Palisades and the mountains  Our close friend Robert McComb will be the ceremony officiant, and the ceremony will begin at 4 pm. 
                     </p>
                   </div>
                   <div className="column">
@@ -171,17 +171,17 @@ class IndexPage extends React.Component {
               <div className='column'></div>
               <div className="timeline column is-three-fifths columns">
                 <div className="column center">
-                  <FontAwesomeIcon icon={faChurch} className="iconFA" />
+                  <FontAwesomeIcon icon={faSketch} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
-                  <p className="timelineTime">3:00 PM</p>
+                  <p className="timelineTime">4:00 PM</p>
                 </div>
                 <div className="column center">
-                  <FontAwesomeIcon icon={faCocktail} className="iconFA" />
+                  <FontAwesomeIcon icon={faGlassCheers} className="iconFA" />
                   <p className="timelineTitle">Cocktail Hour</p>
                   <p className="timelineTime">5:30 PM</p>
                 </div>
                 <div className="column center">
-                  <FontAwesomeIcon icon={faLandmark} className="iconFA" />
+                  <FontAwesomeIcon icon={faPlaceOfWorship} className="iconFA" />
                   <p className="timelineTitle">Reception</p>
                   <p className="timelineTime">6:30 PM</p>
                 </div>
@@ -211,29 +211,15 @@ class IndexPage extends React.Component {
                 <p className="details">BRIDAL PARTY</p>
                 <div className="columns">
                   <div className="column">
-                    <p className="detailsSub">BRIDESMAIDS</p>
-                    <p className='nameContainer'><span className='nameText'>Paige Evans - </span><span className='nameSubText'>Maid of Honor</span></p>
-                    <p className='nameContainer'><span className='nameText'>Grace O'Hair - </span><span className='nameSubText'>Maid of Honor</span></p>
-                    <p className='nameContainer'><span className='nameText'>Elizabeth Settle</span></p>
-                    <p className='nameContainer'><span className='nameText'>Melissa Settle</span></p>
-                    <p className='nameContainer'><span className='nameText'>Emily Pharis</span></p>
-                    <p className='nameContainer'><span className='nameText'>Kristina Wieschhaus</span></p>
-                    <p className='nameContainer'><span className='nameText'>Abbi Brabender</span></p>
-                    <p className='nameContainer'><span className='nameText'>Carlie Witsken</span></p>
-                    <p className='nameContainer'><span className='nameText'>Emily Trinca</span></p>
+                    <p className="detailsSub">MAIDS OF HONOR</p>
+                    <p className='nameContainer'><span className='nameText'>Giuliana Kafaf</span></p>
+                    <p className='nameContainer'><span className='nameText'>Juliane Wiese</span></p>
                     
                   </div>
                   <div className="column">
-                    <p className="detailsSub">GROOMSMEN</p>
-                    <p className='nameContainer'><span className='nameText'>Charlie Hicks - </span><span className='nameSubText'>Best Man</span></p>
-                    <p className='nameContainer'><span className='nameText'>James Molin</span></p>
-                    <p className='nameContainer'><span className='nameText'>Luke Titus</span></p>
-                    <p className='nameContainer'><span className='nameText'>Peter St. Amand</span></p>
-                    <p className='nameContainer'><span className='nameText'>Adam Kaufman</span></p>
-                    <p className='nameContainer'><span className='nameText'>Jack McGrath</span></p>
-                    <p className='nameContainer'><span className='nameText'>Carl Nickander</span></p>
-                    <p className='nameContainer'><span className='nameText'>Patrick Hamilton</span></p>
-                    <p className='nameContainer'><span className='nameText'>Rhys Ivory-Ganja</span></p>
+                    <p className="detailsSub">Best Men</p>
+                    <p className='nameContainer'><span className='nameText'>Nick Hegeman</span></p>
+                    <p className='nameContainer'><span className='nameText'>Mike Hegeman</span></p>
                     
                   </div>
                   
