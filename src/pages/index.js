@@ -13,7 +13,7 @@ import { graphql, Link } from 'gatsby'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faSketch,
+  faRings,
   faGlassCheers,
   faUtensils,
   faPlaceOfWorship,
@@ -65,9 +65,9 @@ class IndexPage extends React.Component {
               <BackgroundImage className="cover" fluid={this.props.data.indexImage.childImageSharp.fluid}>
               <div className="coverText">
                 <div className="coverTitle">
-                  <span>JOSEPH </span>
-                  <span className="and">&</span>
-                  <span> MIKHAILA</span>
+                  <span>Joseph </span>
+                  <span>& </span>
+                  <span>Mikhaila</span>
                 </div>
                 <p className="coverDesc">ARE GETTING MARRIED OCTOBER 15, 2022</p>
               </div>
