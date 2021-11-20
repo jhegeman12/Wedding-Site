@@ -150,6 +150,7 @@ class IndexPage extends React.Component {
                     <p className="detailsText">
                     There is available free parking at the lodge.
                     </p>
+                  </div>
                   <div className="column">
                     <p className="detailsSub">GETTING HERE</p>
                     <p className="detailsText">
