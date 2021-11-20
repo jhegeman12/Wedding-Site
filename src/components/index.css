@@ -17,7 +17,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #053f13;
+  background: #020457;
 }
 
 .columns {
@@ -47,13 +47,13 @@
 
 .and {
   color: rgb(255, 255, 255);
-  font-family: "Epilogue", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .coverDesc {
   padding: 0px;
   margin: 0px;
-  font-family: "Epilogue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 300;
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -85,8 +85,8 @@
   font-family: "Amatic SC", cursive;
   font-size: 30px;
   font-weight: 700;
-  border-top: 2px solid rgb(0, 49, 21);
-  border-bottom: 2px solid rgb(0, 49, 21);
+  border-top: 2px solid rgb(2, 27, 74);
+  border-bottom: 2px solid rgb(2, 27, 74);
 }
 
 .rsvp {
@@ -163,7 +163,7 @@
 }
 
 .detailsText {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 300;
   padding: 10px;
 }
@@ -172,11 +172,11 @@
   margin-top: 10px;
   text-decoration: underline;
   font-weight: 700;
-  color: rgb(86, 105, 79);
+  color: rgb(2, 27, 74);
 }
 
 .acLink a {
-  color: rgb(86, 105, 79);
+  color: rgb(2, 27, 74);
 }
 
 .timeline {
@@ -186,13 +186,13 @@
 }
 
 .timelineTitle {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 300;
   text-align: center;
 }
 
 .timelineTime {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   text-align: center;
 }
@@ -329,13 +329,13 @@
 
   .and {
     color: rgb(255, 255, 255);
-    font-family: "Reenie Beanie", cursive;
+    font-family: "Playfair Display", serif;
   }
 
   .coverDesc {
     padding: 0px;
     margin: 0px;
-    font-family: "Epilogue", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 300;
     font-size: 20px;
     color: rgb(255, 255, 255);
