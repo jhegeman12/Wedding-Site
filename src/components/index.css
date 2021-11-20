@@ -100,7 +100,7 @@
 .rsvpButton {
   background-color: white;
   margin-right: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-size: 30px;
   padding: 20px 50px 20px 50px;
   color: rgb(2, 27, 74);
@@ -153,24 +153,24 @@
 
 .details {
   padding: 10px;
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-size: 35px;
 }
 
 .detailsSub {
   padding: 10px;
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-size: 30px;
 }
 
 .detailsSub2 {
   padding: 5px;
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-size: 20px;
 }
 
 .detailsText {
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-weight: 300;
   padding: 10px;
 }
@@ -193,13 +193,13 @@
 }
 
 .timelineTitle {
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-weight: 300;
   text-align: center;
 }
 
 .timelineTime {
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-weight: 700;
   text-align: center;
 }
@@ -220,7 +220,7 @@
 }
 
 .mapTextTitle {
-  font-family: "Playfair Display", serif;
+  font-family: "Amatic SC", cursive;
   font-size: 20px;
   padding-bottom: 10px;
 }
