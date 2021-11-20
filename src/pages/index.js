@@ -14,7 +14,7 @@ import { graphql, Link } from 'gatsby'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faChurch,
-  faGlass-Cheers,
+  faGlass-cheers,
   faUtensils,
   faLandmark,
   faMusic,
