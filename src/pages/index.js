@@ -154,7 +154,7 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">GETTING HERE</p>
                     <p className="detailsText">
-                    The two closest airports are Sacramento and Reno. To get to from the airport to Palisades, we recommend renting a car, but public transportation options are listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area Regional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
+                    The two closest airports are Sacramento and Reno. To get to from the airport to Palisades, we recommend renting a car, but public transportation options are listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area REgional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
                     <br></br>
                     <p className="detailsText">
                       To Truckee/North Tahoe Area
@@ -162,11 +162,7 @@ class IndexPage extends React.Component {
                     The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.  
                     <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Amtrak - California Zephyr</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
                     <br></br>
-                    
-                    <p style={{fontStyle: 'italic'}}>These blocks will remain open until <span style={{fontWeight: '700'}}>July 19th, 2021.</span></p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
-                    <p className="acLink"><a rel="noreferrer" href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/I/INDCAGI-ESWEDD-20210818/index.jhtml' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1609773039533&key=GRP&app=resvlink' target="_blank">Springhill Suites</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 11855 N Meridian St, Carmel, IN 46032</p>
+    
                     </p>
                   </div>
                   <div className="column">
