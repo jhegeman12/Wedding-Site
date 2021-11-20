@@ -154,9 +154,15 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">GETTING HERE</p>
                     <p className="detailsText">
-                    There is no preset block of rooms set aside for the wedding, but there is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount.
+                    The two closest airports are Sacramento and Reno. To get to from the airport to Palisades, we recommend renting a car, but public transportation options are listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area REgional Transit (TART) can be used to get to Palisades and explore the North Lake Area.   
                     <br></br>
+                    <p className="detailsText">
+                      To Truckee/North Tahoe Area
                     <br></br>
+                    The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.  
+                    <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Amtrak - California Zephyr</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
+                    <br></br>
+                    
                     <p style={{fontStyle: 'italic'}}>These blocks will remain open until <span style={{fontWeight: '700'}}>July 19th, 2021.</span></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1606330854530&key=GRP&app=resvlink' target="_blank">Hotel Carmichael</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 1 Carmichael Square, Carmel, IN 46032</p>
                     <p className="acLink"><a rel="noreferrer" href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/I/INDCAGI-ESWEDD-20210818/index.jhtml' target="_blank">Hilton Garden Inn</a></p><p style={{paddingLeft: "20px"}}><FontAwesomeIcon icon={faDirections} style={{fontSize: '20px'}} className="iconFA directions" />  - 13090 N Pennsylvania St, Carmel, IN 46032</p>
@@ -213,7 +219,6 @@ class IndexPage extends React.Component {
             <div className='column is-8 is-offset-2'>
               <div className='columns'>
                 <div className='column'><p className='mapTextTitle'>CEREMONY DETAILS</p><a href='https://www.google.com/maps/dir//Olympic+Village+Lodge,+1901+Chamonix+Pl,+Olympic+Valley,+CA+96146' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1901 Chamonix Pl, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3092.0033952619506!2d-120.2354779!3d39.1973716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd93153d07aa7%3A0x840ba1fced7b1670!2sOlympic%20Village%20Lodge!5e0!3m2!1sen!2sus!4v1637384154321!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
-                <div className='column'><p className='mapTextTitle'>RECEPTION DETAILS</p><a href='https://www.google.com/maps/dir//The+Bluffs+at+Conner+Prairie,+13080+Allisonville+Rd,+Fishers,+IN' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>13080 Allisonville Rd, Fishers, IN 46038</span></a><iframe title='mapBluffs' className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.36148524516!2d-86.03446368430305!3d39.97802639012645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8814b35916e2a8cd%3A0xf57c0df294806781!2sThe%20Bluffs%20at%20Conner%20Prairie!5e0!3m2!1sen!2sus!4v1603733162678!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
               </div>
             </div>
             
