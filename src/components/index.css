@@ -40,14 +40,14 @@
 .coverTitle {
   padding: 0px;
   margin: 0px;
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 60px;
   color: rgb(255, 255, 255);
 }
 
 .and {
   color: rgb(255, 255, 255);
-  font-family: "Reenie Beanie", cursive;
+  font-family: "Epilogue", sans-serif;
 }
 
 .coverDesc {
@@ -64,7 +64,7 @@
 }
 
 .nameTitle {
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
 }
 
@@ -99,7 +99,7 @@
 .rsvpButton {
   background-color: white;
   margin-right: 20px;
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   padding: 15px 45px 15px 45px;
   color: rgb(2, 27, 74);
@@ -152,13 +152,13 @@
 
 .details {
   padding: 10px;
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 30px;
 }
 
 .detailsSub {
   padding: 10px;
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
 }
 
@@ -213,7 +213,7 @@
 }
 
 .mapTextTitle {
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   padding-bottom: 10px;
 }
@@ -262,7 +262,7 @@
 
 .regTitle {
   margin-top: 50px;
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 30px;
 }
 
@@ -273,7 +273,7 @@
 
 .regButton {
   margin-right: 20px;
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   padding: 15px;
   color: rgb(2, 27, 74);
@@ -293,7 +293,7 @@
 }
 
 .countNumber {
-  font-family: "Bowlby One", cursive;
+  font-family: "Playfair Display", serif;
   font-size: 15px;
 }
 
@@ -322,7 +322,7 @@
   .coverTitle {
     padding: 0px;
     margin: 0px;
-    font-family: "Bowlby One", cursive;
+    font-family: "Playfair Display", serif;
     font-size: 40px;
     color: rgb(255, 255, 255);
   }
@@ -346,7 +346,7 @@
   .regTitle {
     padding: 10px;
     margin-top: 50px;
-    font-family: "Bowlby One", cursive;
+    font-family: "Playfair Display", serif;
     font-size: 30px;
   }
 
