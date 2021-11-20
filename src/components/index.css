@@ -162,6 +162,12 @@
   font-size: 30px;
 }
 
+.detailsSub2 {
+  padding: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
 .detailsText {
   font-family: "Playfair Display", serif;
   font-weight: 300;
