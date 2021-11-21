@@ -101,22 +101,20 @@ class IndexPage extends React.Component {
                   
                 </div>
                 </div> */}
-                </div>
+               </div>
                 <div className="mtn .container.is-fullhd">
+                  
                   <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+                    
+                    <div className='column is-one-quarter is-offset-one-quarter'><div className="quote">
+                      the greatest adventure is not where you go but who you are
+                      with.
+                    </div></div>
+                    
                     <div className="column"><Image4></Image4></div>
                   </div>
-                </div>
                   
-                {/* RSVP button */}
-                <div className="container rsvp">
-                  <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
                 </div>
-                <div className='container images'>
-                  <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                    <Image />
-                  </div>
-                  </div>
               
             
             <div className="info .container.is-fullhd">
