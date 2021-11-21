@@ -75,6 +75,17 @@ class IndexPage extends React.Component {
               </BackgroundImage>
             </div>
             <div className="container">
+              <div class="book">
+                  <span class="page turn"></span>
+                  <span class="page turn"></span>
+                  <span class="page turn"></span>
+                  <span class="page turn"></span>
+                  <span class="page turn"></span>
+                  <span class="page turn"></span>
+                  <span class="cover"></span>
+                  <span class="page"></span>
+                  <span class="cover turn"></span>
+              </div>
               {/* <div className="about">
                 <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <div className="ourStory" >
