@@ -122,24 +122,28 @@ class IndexPage extends React.Component {
               
             
             <div className="info .container.is-fullhd">
-              <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+            <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                 <p className="details">Weekend Details</p>
                 <div className="columns">
                   <div className="column">
-                    <p className="detailsSub">Welcome Ceremony</p>
+                    <p className="detailsSub">Welcome</p>
                     <p className="detailsText">
-                    Please join us at the welcome ceremony the night before the wedding at Fireside Pizza in Palisades Village for pizza and beer. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night before the wedding.</p>
+                    Please join us at the welcome ceremony the night before the wedding at Fireside Pizza in Palisades Village for pizza and beer. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night before the wedding. 
+                    </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
                     <p className="detailsText">
-                    The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge.
+                   The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge. 
+                    </p>
+                    <p className="detailsText">
+                    *Note that The Bluffs parking lot will be closed on Sunday, please plan accordingly with driving and parking cars.
                     </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
                     <p className="detailsText">
-                    Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food. 
+                    Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.
                     </p>
                   </div>
                 </div>
@@ -184,40 +188,12 @@ class IndexPage extends React.Component {
               </div>
               <div className='column'></div>
               </div>
-            <div className="info .container.is-fullhd">
-            <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-              <div className= 'columns'>
-                 {/*
-                 <div className="column">
-                    <p className="detailsSub">Getting Here</p>
-                    <p className="detailsText">
-                    The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area REgional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
-                    <br></br>
-                    <p className="detailsSub2">
-                      To Truckee/North Tahoe Area</p>
-                    <br></br>
-                    <p className="detailsText">
-                    The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.  
-                    <p className="acLink"><a rel="noreferrer" href='https://www.amtrak.com/california-zephyr-train' target="_blank">Amtrak - California Zephyr</a></p>
-                    <br></br>
-                    </p>
-                  </div>
-                  <div className="column">
-                    <p className="detailsSub">Accomodations</p>
-                    <p className="detailsText">
-                    There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many Airbnb and Vrbo rentals available in the area. 
-                    <br></br>
-                    <br></br>
-    
-                    <p className="acLink"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
-                    </p>
-                 <div className='column is-8 is-offset-2'>*/}
-                <div className='column'><p className='mapTextTitle'>Welcome Ceremony</p><a href='https://www.google.com/maps/dir//Fireside+Pizza+Company/' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1985 Squaw Valley Rd # 25, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.0202692132334!2d-120.2368703846407!3d39.19698817952557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd9ec5f912cd9%3A0x503cf512a5f95a8e!2sFireside%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1637450748222!5m2!1sen!2sus"> aria-hidden="false"</iframe></div>
+            <div className='column is-8 is-offset-2'>
+              <div className='columns'>
+               <div className='column'><p className='mapTextTitle'>Welcome Ceremony</p><a href='https://www.google.com/maps/dir//Fireside+Pizza+Company/' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1985 Squaw Valley Rd # 25, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.0202692132334!2d-120.2368703846407!3d39.19698817952557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd9ec5f912cd9%3A0x503cf512a5f95a8e!2sFireside%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1637450748222!5m2!1sen!2sus"> aria-hidden="false"</iframe></div>
                 <div className='column'><p className='mapTextTitle'>Ceremony Location</p><a href='https://www.google.com/maps/dir//Olympic+Village+Lodge,+1901+Chamonix+Pl,+Olympic+Valley,+CA+96146' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1901 Chamonix Pl, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3092.0033952619506!2d-120.2354779!3d39.1973716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd93153d07aa7%3A0x840ba1fced7b1670!2sOlympic%20Village%20Lodge!5e0!3m2!1sen!2sus!4v1637384154321!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
               </div>
-              <div className='column is-8 is-offset-2'>
+            </div>
 
               </div>
       
@@ -273,9 +249,6 @@ class IndexPage extends React.Component {
               <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
               <span className='countNumber'>{this.state.seconds}</span> <span className='countText'>SECONDS </span>
             </div>
-            </div>
-            </div>
-          </div>
         </Layout>
       </Page>
     )
