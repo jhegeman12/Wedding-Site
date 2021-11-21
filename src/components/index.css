@@ -224,8 +224,8 @@
 
 .mapTextTitle {
   font-family: "Amatic SC", cursive;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 600;
   padding-bottom: 10px;
 }
 
@@ -281,7 +281,7 @@
 .regText {
   font-family: "Epilogue", sans-serif;
   font-weight: 300;
-  font-size: 40px;;
+  font-size: 25px;;
 }
 
 .regButton {
