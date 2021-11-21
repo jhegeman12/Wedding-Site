@@ -217,6 +217,7 @@ class IndexPage extends React.Component {
                 <div className='column'><p className='mapTextTitle'>Welcome Ceremony</p><a href='https://www.google.com/maps/dir//Fireside+Pizza+Company/' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1985 Squaw Valley Rd # 25, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.0202692132334!2d-120.2368703846407!3d39.19698817952557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd9ec5f912cd9%3A0x503cf512a5f95a8e!2sFireside%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1637450748222!5m2!1sen!2sus"> aria-hidden="false"</iframe></div>
                 <div className='column'><p className='mapTextTitle'>Ceremony Location</p><a href='https://www.google.com/maps/dir//Olympic+Village+Lodge,+1901+Chamonix+Pl,+Olympic+Valley,+CA+96146' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1901 Chamonix Pl, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3092.0033952619506!2d-120.2354779!3d39.1973716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd93153d07aa7%3A0x840ba1fced7b1670!2sOlympic%20Village%20Lodge!5e0!3m2!1sen!2sus!4v1637384154321!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
               </div>
+              <div className='column is-8 is-offset-2'>
 
               </div>
       
@@ -271,6 +272,7 @@ class IndexPage extends React.Component {
               <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
               <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
               <span className='countNumber'>{this.state.seconds}</span> <span className='countText'>SECONDS </span>
+            </div>
             </div>
             </div>
           </div>
