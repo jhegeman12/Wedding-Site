@@ -120,7 +120,18 @@ class IndexPage extends React.Component {
                   <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
                 </div>
               
-
+                <div className='container images'>
+                  <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+                    <Image />
+                  </div>
+                    {/* <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
+                      <Image2 />
+                    </div>
+                    <div className="floatImg2" data-sal="fade-in" data-sal-delay="900" data-sal-easing="ease" data-sal-duration='1000'>
+                      <Image3 />
+                    </div> */}
+                </div>
+                
             <div className="info .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                 <p className="details">Weekend Details</p>
