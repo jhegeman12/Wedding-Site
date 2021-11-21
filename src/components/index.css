@@ -161,26 +161,25 @@
 .detailsSub {
   padding: 5px;
   font-family: "Amatic SC", cursive;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
 }
 
 .detailsSub2 {
   padding: 5px;
   font-family: "Amatic SC", cursive;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .detailsText {
-  font-family: "Amatic SC", cursive;
-  font-weight: 300;
-  font-weight: 500;
-  padding: 15px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  padding: 5px;
 }
 
 .acLink {
-  margin-top: 10px;
+  margin-top: 25px;
   text-decoration: underline;
   font-weight: 700;
   color: rgb(2, 27, 74);
@@ -198,13 +197,13 @@
 
 .timelineTitle {
   font-family: "Amatic SC", cursive;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
 }
 
 .timelineTime {
   font-family: "Amatic SC", cursive;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -275,20 +274,20 @@
 .regTitle {
   margin-top: 50px;
   font-family: "Amatic SC", cursive;
-  font-weight: 600;
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 .regText {
-  font-family: "Amatic SC", cursive;
-  font-weight: 500;
-  font-size: 30px;;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 300;
+  font-size: 40px;;
 }
 
 .regButton {
-  margin-right: 20px;
+  margin-right: 25px;
   font-family: "Amatic SC", cursive;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 25px;
   padding: 15px;
   color: rgb(2, 27, 74);
