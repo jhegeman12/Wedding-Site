@@ -188,6 +188,33 @@ class IndexPage extends React.Component {
               </div>
               <div className='column'></div>
               </div>
+              {/*
+                 <div className="column">
+                    <p className="detailsSub">Getting Here</p>
+                    <p className="detailsText">
+                    The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area REgional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
+                    <br></br>
+                    <p className="detailsSub2">
+                      To Truckee/North Tahoe Area</p>
+                    <br></br>
+                    <p className="detailsText">
+                    The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.  
+                    <p className="acLink"><a rel="noreferrer" href='https://www.amtrak.com/california-zephyr-train' target="_blank">Amtrak - California Zephyr</a></p>
+                    <br></br>
+                    </p>
+                  </div>
+                  <div className="column">
+                    <p className="detailsSub">Accomodations</p>
+                    <p className="detailsText">
+                    There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many Airbnb and Vrbo rentals available in the area. 
+                    <br></br>
+                    <br></br>
+    
+                    <p className="acLink"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
+                    </p>
+                 <div className='column is-8 is-offset-2'>*/}
             <div className='column is-8 is-offset-2'>
               <div className='columns'>
                <div className='column'><p className='mapTextTitle'>Welcome Ceremony</p><a href='https://www.google.com/maps/dir//Fireside+Pizza+Company/' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1985 Squaw Valley Rd # 25, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.0202692132334!2d-120.2368703846407!3d39.19698817952557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd9ec5f912cd9%3A0x503cf512a5f95a8e!2sFireside%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1637450748222!5m2!1sen!2sus"> aria-hidden="false"</iframe></div>
