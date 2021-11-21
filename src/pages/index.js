@@ -115,8 +115,12 @@ class IndexPage extends React.Component {
                   </div>
                   
                 </div>
+                {/* RSVP button */}
+                <div className="conatiner rsvp">
+                  <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
+                </div>
               
-            
+
             <div className="info .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                 <p className="details">Weekend Details</p>
