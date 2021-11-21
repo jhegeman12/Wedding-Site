@@ -103,11 +103,11 @@ class IndexPage extends React.Component {
                 </div> */}
                 </div>
                 <div className="mtn .container.is-fullhd">
-                  
+                  <div classname="mtn column is-four-fifths columns">
                   <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <div className="column"><Image4></Image4></div>
                   </div>
-                  
+                  </div>
                 </div>
                   
                 {/* RSVP button */}
