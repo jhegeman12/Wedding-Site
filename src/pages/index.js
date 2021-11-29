@@ -266,12 +266,16 @@ class IndexPage extends React.Component {
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <div className="column">
-                  <p className="regTitle">REGISTRY</p>
+                  <p className="regTitle">Registry</p>
                   <p className="regText">
-                  While everything on our registry are things we'll love, the most important gift we can receive is the chance to celebrate with you. We are so excited to share our special day with you and feel very blessed to have you in our lives!
+                  While we will love anything on these lists, the most important gift to us is the chance to celebrate our day with you. 
                   </p>
                 </div>
-                <div className="column"></div>
+                <div className="column">
+                <p className="RegTitle">Our Story and Photos</p>
+                <p className="regText">
+                  If you want a little more Mikhaila and Joseph content, we're happy to share our meet and cute and more photos at the link below.</p>
+                </div>
               </div>
               <div className="column"></div>
             </div>
@@ -283,6 +287,9 @@ class IndexPage extends React.Component {
                 <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
               </div>
               <div className="column"></div>
+              <div className="timeline column is-two-thirds columns">
+                <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
+                </div>
             </div>
             <div className='countdown'>
               <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
