@@ -261,8 +261,8 @@ class IndexPage extends React.Component {
               </div>  
               </div> */}
 
-
-            <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
+            <div className="info .container.is-fullhd">
+            <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'></div>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <div className="column">
@@ -280,7 +280,6 @@ class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="column"></div>
-            </div>
             <div className="columns" data-sal="fade-in"  data-sal-easing="ease" data-sal-duration='1000'>
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
@@ -291,7 +290,8 @@ class IndexPage extends React.Component {
               <div className="column"></div>
               <div className="timeline column is-two-thirds columns">
                 <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
-                </div>
+              </div>
+            </div>
             </div>
             <div className='countdown'>
               <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
