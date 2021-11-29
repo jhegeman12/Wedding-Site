@@ -14,9 +14,6 @@ const StoryPhotosPage = () => (
             <h1 className='signature'>Love,
             Joseph & Mikhaila</h1>
             <div className='centerParent'>
-                <Link to='IndexPage'>
-                    <button className='formButton1'>RETURN HOME</button>
-                </Link>
             </div>
         </div>
     </div>
