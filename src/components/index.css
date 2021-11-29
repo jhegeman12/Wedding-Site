@@ -271,17 +271,24 @@
   font-style: italic;
 }
 
+.reg {
+  margin-top: 10px;
+  background-color: rgb(222, 234, 252);
+}
+
 .regTitle {
-  margin-top: 50px;
+  margin-top: 40px;
   font-family: "Amatic SC", cursive;
   font-weight: 700;
   font-size: 50px;
+  background-color: rgb(222, 234, 252);
 }
 
 .regText {
   font-family: "Epilogue", sans-serif;
   font-weight: 300;
   font-size: 15px;
+  background-color: rgb(222, 234, 252);
 }
 
 .regButton {
