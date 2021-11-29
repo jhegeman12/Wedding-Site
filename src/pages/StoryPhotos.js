@@ -20,3 +20,5 @@ const Decline = () => (
         </div>
     </div>
 )
+
+export default StoryPhotos
