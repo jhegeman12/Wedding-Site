@@ -22,4 +22,4 @@ const Decline = () => (
     </div>
 )
 
-export default StoryPhotos
+export default StoryPhotosPage
