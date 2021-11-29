@@ -1,7 +1,8 @@
-import { Link } from "gatsby"
 import React from "react"
 
+import Image from "../components/image"
 import '../components/rsvpMessage.css'
+import Layout from "../components/layout"
 
 const Decline = () => (
     <div className='containerSuccess .container.is-fullhd columns'>
