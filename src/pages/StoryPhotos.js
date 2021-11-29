@@ -4,7 +4,7 @@ import Image from "../components/image"
 import '../components/rsvpMessage.css'
 import Layout from "../components/layout"
 
-const Decline = () => (
+const StoryPhotosPage = () => (
     <div className='containerSuccess .container.is-fullhd columns'>
         <div className="formContainer1 column is-one-third is-offset-one-third">
             <h1 className="header">We will miss you!</h1>
