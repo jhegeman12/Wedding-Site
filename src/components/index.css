@@ -147,7 +147,7 @@
   width: 100%;
   min-height: 500px;
   background-color: rgb(222, 234, 252);
-  padding-top: 50px;
+  padding-top: 45px;
   padding-bottom: 80px;
 }
 
@@ -276,7 +276,7 @@
 }
 
 .regTitle {
-  margin-top: 40px;
+  margin-top: 10px;
   font-family: "Amatic SC", cursive;
   font-weight: 700;
   font-size: 50px;

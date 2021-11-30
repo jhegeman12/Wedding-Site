@@ -267,6 +267,8 @@ class IndexPage extends React.Component {
                 <div className="column">
                   <p className="regTitle">Registry</p>
                   <p className="regText">While we will love anything on these lists, the most important gift to us is the chance to celebrate our day with you. </p>
+                  <br></br>
+                  <br></br>
                   <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
                   <a href='https://www.target.com/gift-registry/giftgiver?registryId=66cf6664801247aa8e1f12ec5e5d9bb3&lnk=registry_custom_url' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
                   <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
@@ -274,7 +276,9 @@ class IndexPage extends React.Component {
                 <div className="column">
                 <p className="regTitle">More Joseph and Mikhaila</p>
                 <p className="regText">If you want a little more Mikhaila and Joseph content, we're happy to share our meet-cute and more photos at the link below.</p>
-                <a href='#' rel="noreferrer" className="regButton">J & </a>
+                <a href='#' rel="noreferrer" className="regButton">J & M</a>
+                <br></br>
+                <br></br>
                 </div>
               </div>
             </div>
