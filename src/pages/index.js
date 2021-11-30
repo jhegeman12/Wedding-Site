@@ -285,18 +285,7 @@ class IndexPage extends React.Component {
               </div>
              </div>
             </div>
-          {/* <div className="info .container.is-fullhd">
-            <div className="columns">
-              <div className="column is-8 is-offset-2">
-                <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
-                <a href='https://www.target.com/gift-registry/giftgiver?registryId=66cf6664801247aa8e1f12ec5e5d9bb3&lnk=registry_custom_url' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
-                <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
-              </div>
-              <div className='column is-8 is-offset-2'>
-                <a href='#' rel="noreferrer" className="regButton">J & </a>
-              </div>
-            </div>
-          </div>*/}
+      
             <div className='countdown'>
               <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
               <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
