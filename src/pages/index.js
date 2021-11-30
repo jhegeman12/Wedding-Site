@@ -295,7 +295,6 @@ class IndexPage extends React.Component {
               <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
               <span className='countNumber'>{this.state.seconds}</span> <span className='countText'>SECONDS </span>
             </div>
-          </div>
         </Layout>
       </Page>
     )
