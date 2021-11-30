@@ -137,24 +137,15 @@ class IndexPage extends React.Component {
                 <div className="columns">
                   <div className="column">
                     <p className="detailsSub">Welcome</p>
-                    <p className="detailsText">
-                    Please join us at the welcome ceremony the night before the wedding at Fireside Pizza in Palisades Village for pizza and beer. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night before the wedding. 
-                    </p>
+                    <p className="detailsText">Please join us at the welcome ceremony the night before the wedding at Fireside Pizza in Palisades Village for pizza and beer. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night before the wedding. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
-                    <p className="detailsText">
-                   The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge. 
-                    </p>
-                    <p className="detailsText">
-                    *Note that The Bluffs parking lot will be closed on Sunday, please plan accordingly with driving and parking cars.
-                    </p>
+                    <p className="detailsText">The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
-                    <p className="detailsText">
-                    Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:30 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.
-                    </p>
+                    <p className="detailsText">Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:00 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.</p>
                   </div>
                 </div>
                 
@@ -208,26 +199,18 @@ class IndexPage extends React.Component {
               <div className="columns">
                  <div className="column">
                     <p className="detailsSub">Getting Here</p>
-                    <p className="detailsText">
-                    The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are available and listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area Regional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
+                    <p className="detailsText">The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are available and listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area Regional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
                     <p className="acLink"><a rel="noreferrer" href='https://tahoetruckeetransit.com/' target="_blank">  Tahoe Area Regional Transit</a></p>
-                    <p className="detailsSub2">
-                      To Truckee/North Tahoe Area</p>
-                    <br></br>
-                    <p className="detailsText">
-                    The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.  
+                    <p className="detailsSub2">To Truckee/North Tahoe Area</p>
+                    <p className="detailsText">The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.</p>  
                     <p className="acLink"><a rel="noreferrer" href='https://www.amtrak.com/california-zephyr-train' target="_blank">Amtrak - California Zephyr</a></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.northlaketahoeexpress.com/' target="_blank">North Lake Tahoe Express</a></p>
-                    <br></br>
-                    </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
-                    <p className="detailsText">
-                    There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many Airbnb and Vrbo rentals available in the area. 
+                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area. For larger groups, there are also many vacation house rentals available on Airbnb and Vrbo.</p>
                     <br></br>
                     <br></br>
-    
                     <p className="acLink"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
