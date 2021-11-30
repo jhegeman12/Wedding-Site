@@ -271,9 +271,9 @@ class IndexPage extends React.Component {
                   </p>
                 </div>
                 <div className='column is-8 is-offset-2'>
-                <p className="regTitle">Our Story and Photos</p>
+                <p className="regTitle">More Joseph and Mikhaila</p>
                 <p className="regText">
-                  If you want a little more Mikhaila and Joseph content, we're happy to share our meet and cute and more photos at the link below.</p>
+                  If you want a little more Mikhaila and Joseph content, we're happy to share our meet-cute and more photos at the link below.</p>
                 </div>
               </div>
             </div>
