@@ -298,6 +298,7 @@
   font-size: 25px;
   padding: 15px;
   color: rgb(2, 27, 74);
+  background-color: white;
   border: 3px solid rgb(245, 181, 132);
   transition: 0.2s;
   text-align: center;
