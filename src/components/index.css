@@ -277,21 +277,21 @@
   width: 100%;
   min-height: 350px;
   background-color: rgb(222, 234, 252);
-  padding-top: 35px;
-  padding-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 30px;
 }
 .regTitle {
   margin-top: 10px;
   font-family: "Amatic SC", cursive;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 35px;
   background-color: rgb(222, 234, 252);
 }
 
 .regText {
   font-family: "Epilogue", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 12px;
   background-color: rgb(222, 234, 252);
 }
 
