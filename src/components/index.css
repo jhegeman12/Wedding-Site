@@ -169,7 +169,7 @@
   padding: 5px;
   font-family: "Amatic SC", cursive;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .detailsText {
@@ -182,6 +182,7 @@
   margin-top: 25px;
   text-decoration: underline;
   font-weight: 700;
+  font-family:"Epilogue", sans-serif;
   color: rgb(2, 27, 74);
 }
 
