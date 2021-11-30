@@ -276,9 +276,9 @@ class IndexPage extends React.Component {
                 <div className="column">
                 <p className="regTitle">More Joseph and Mikhaila</p>
                 <p className="regText">If you want a little more Mikhaila and Joseph content, we're happy to share our meet-cute and more photos at the link below.</p>
+                <br></br>
+                <br></br>
                 <a href='#' rel="noreferrer" className="regButton">J & M</a>
-                <br></br>
-                <br></br>
                 </div>
               </div>
             </div>
