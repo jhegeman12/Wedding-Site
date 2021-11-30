@@ -263,6 +263,7 @@ class IndexPage extends React.Component {
 
             <div className="info .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'></div>
+             <div className='column is-8 is-offset-2'>
               <div className="columns">
                 <div className="column">
                   <p className="regTitle">Registry</p>
@@ -281,6 +282,7 @@ class IndexPage extends React.Component {
                 <a href='#' rel="noreferrer" className="regButton">J & M</a>
                 </div>
               </div>
+             </div>
             </div>
           {/* <div className="info .container.is-fullhd">
             <div className="columns">
