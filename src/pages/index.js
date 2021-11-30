@@ -288,8 +288,8 @@ class IndexPage extends React.Component {
               <div className='column is-8 is-offset-2'>
                 <a href='#' rel="noreferrer" className="regButton">J & </a>
               </div>
-            </div> */}
-          </div>
+            </div>
+          </div>*/}
             <div className='countdown'>
               <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
               <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
