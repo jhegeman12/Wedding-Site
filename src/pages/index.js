@@ -263,28 +263,27 @@ class IndexPage extends React.Component {
 
             <div className="info .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'></div>
-                <div className="column">
+                <div className='column is-8 is-offset-2'>
                   <p className="regTitle">Registry</p>
                   <p className="regText">
                   While we will love anything on these lists, the most important gift to us is the chance to celebrate our day with you. 
                   </p>
                 </div>
-                <div className="reg column is-two-thirds columns">
+                <div className='column is-8 is-offset-2'>
                 <p className="regTitle">Our Story and Photos</p>
                 <p className="regText">
                   If you want a little more Mikhaila and Joseph content, we're happy to share our meet and cute and more photos at the link below.</p>
                 </div>
               </div>
-              <div className="column"></div>
             <div className="columns">
               <div className="column"></div>
-              <div className="reg column is-two-thirds columns">
+              <div className='column is-8 is-offset-2'>
                 <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
                 <a href='https://www.target.com/gift-registry/giftgiver?registryId=66cf6664801247aa8e1f12ec5e5d9bb3&lnk=registry_custom_url' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
                 <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
               </div>
               <div className="column"></div>
-              <div className="reg column is-two-thirds columns">
+              <div className='column is-8 is-offset-2'>
                 <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
               </div>
             </div>
