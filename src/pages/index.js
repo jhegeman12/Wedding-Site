@@ -199,7 +199,7 @@ class IndexPage extends React.Component {
               <div className="columns">
                  <div className="column">
                     <p className="detailsSub">Getting Here</p>
-                    <p className="detailsText">The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are available and listed below. Once you are in the North Tahoe are (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area Regional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
+                    <p className="detailsText">The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are available and listed below. Once you are in the North Tahoe area (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area Regional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
                     <p className="acLink"><a rel="noreferrer" href='https://tahoetruckeetransit.com/' target="_blank">  Tahoe Area Regional Transit</a></p>
                     <p className="detailsSub2">To Truckee/North Tahoe Area</p>
                     <p className="detailsText">The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.</p>  
@@ -246,7 +246,7 @@ class IndexPage extends React.Component {
 
             <div className="reg .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-             <div className='column is-12 is-offset-1'>
+             <div className='column is-13 is-offset-2'>
               <div className="columns">
                 <div className="column">
                   <p className="regTitle">Registry</p>
