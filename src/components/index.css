@@ -348,20 +348,20 @@
   .coverTitle {
     padding: 0px;
     margin: 0px;
-    font-family: "Playfair Display", serif;
+    font-family: "Amatic SC", cursive;
     font-size: 40px;
     color: rgb(255, 255, 255);
   }
 
   .and {
     color: rgb(255, 255, 255);
-    font-family: "Playfair Display", serif;
+    font-family: "Amatic SC", cursive;
   }
 
   .coverDesc {
     padding: 0px;
     margin: 0px;
-    font-family: "Playfair Display", serif;
+    font-family: "Amatic SC", cursive;
     font-weight: 300;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -370,7 +370,7 @@
   .regTitle {
     padding: 10px;
     margin-top: 50px;
-    font-family: "Playfair Display", serif;
+    font-family: "Amatic SC", cursive;
     font-size: 30px;
   }
 
