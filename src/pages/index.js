@@ -246,7 +246,7 @@ class IndexPage extends React.Component {
 
             <div className="reg .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-             <div className='column is-three-fifths column'>
+             <div className='column is-three-quarters column'>
               <div className="columns">
                 <div className="column">
                   <p className="regTitle">Registry</p>
