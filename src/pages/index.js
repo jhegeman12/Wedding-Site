@@ -114,10 +114,10 @@ class IndexPage extends React.Component {
                   </div>
                   
                 </div>
-                {/* RSVP button */}
+                {/* RSVP button 
                 <div className="conatiner rsvp">
                   <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
-                </div>
+                </div>*/}
               
                 <div className='container images'>
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
