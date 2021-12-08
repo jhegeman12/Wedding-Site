@@ -275,10 +275,9 @@
 
 .reg {
   width: 100%;
-  min-height: 350px;
   background-color: rgb(222, 234, 252);
-  padding-top: 25px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .regTitle {
   margin-top: 10px;
@@ -290,7 +289,7 @@
 
 .regText {
   font-family: "Epilogue", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   background-color: rgb(222, 234, 252);
 }
