@@ -195,7 +195,7 @@ class IndexPage extends React.Component {
                 <div className='column'><p className='mapTextTitle'>Ceremony & Reception</p><a href='https://www.google.com/maps/dir//Olympic+Village+Lodge,+1901+Chamonix+Pl,+Olympic+Valley,+CA+96146' target='_blank' rel="noreferrer" className='mapDirections'><FontAwesomeIcon icon={faDirections} className="iconFA directions" /><span className='mapLink'>1901 Chamonix Pl, Olympic Valley, CA 96146</span></a><iframe title='mapOVC' className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3092.0033952619506!2d-120.2354779!3d39.1973716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd93153d07aa7%3A0x840ba1fced7b1670!2sOlympic%20Village%20Lodge!5e0!3m2!1sen!2sus!4v1637384154321!5m2!1sen!2sus" aria-hidden="false" ></iframe></div>
                </div>
              </div>
-             <div className='column is-8 is-offset-1'>
+             <div className='column is-8 is-offset-2'>
               <div className="columns">
                  <div className="column">
                     <p className="detailsSub">Getting Here</p>
@@ -246,7 +246,7 @@ class IndexPage extends React.Component {
 
             <div className="reg .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-             <div className='column is-8 is-offset-2'>
+             <div className='column is-8 is-offset-1'>
               <div className="columns">
                 <div className="column">
                   <p className="regTitle">Registry</p>
