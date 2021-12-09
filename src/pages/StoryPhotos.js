@@ -114,10 +114,9 @@ class StoryPhotos extends React.Component {
                   </div>
                   
                 </div>
-                {/* RSVP button 
-                <div className="conatiner rsvp">
-                  <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
-                </div>*/}
+                <div className="container rsvp">
+                  <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
+                </div>
               
                 <div className='container images'>
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
@@ -262,7 +261,7 @@ class StoryPhotos extends React.Component {
                 <p className="regText">If you want a little more Mikhaila and Joseph content, we're happy to share our meet-cute and more photos at the link below.</p>
                 <br></br>
                 <br></br>
-                <a href='https://jospehandmikhaila.com/StoryPhotos' rel="noreferrer" className="regButton">J & M</a>
+                <a href='https://josephandmikhaila.com/StoryPhotos' rel="noreferrer" className="regButton">J & M</a>
                 </div>
               </div>
              </div>
