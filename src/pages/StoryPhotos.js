@@ -88,23 +88,10 @@ class StoryPhotos extends React.Component {
                 </div>
                 <div className="container rsvp">
                   <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
-                </div>
-              
-                <div className='container images'>
-                  <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                    <Image />
-                  </div>
-                    {/* <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
-                      <Image2 />
-                    </div>
-                    <div className="floatImg2" data-sal="fade-in" data-sal-delay="900" data-sal-easing="ease" data-sal-duration='1000'>
-                      <Image3 />
-                    </div> */}
-                </div>
-                
+                </div>   
             <div className="info .container.is-fullhd">
             <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                <p className="details">Weekend Details</p>
+                <p className="details">Engagement Photos</p>
                 <div className="columns">
                   <div className="column">
                     <p className="detailsSub">Welcome</p>
