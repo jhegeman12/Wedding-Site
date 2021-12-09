@@ -64,14 +64,6 @@ class StoryPhotos extends React.Component {
           <div className=".container.is-fullhd">
             <div >
               <BackgroundImage className="cover" fluid={this.props.data.indexImage.childImageSharp.fluid}>
-              <div className="coverText">
-                <div className="coverTitle">
-                  <span>Joseph </span>
-                  <span>& </span>
-                  <span>Mikhaila</span>
-                </div>
-                <p className="coverDesc">ARE GETTING MARRIED OCTOBER 15, 2022</p>
-              </div>
               </BackgroundImage>
             </div>
             <div className="container">
