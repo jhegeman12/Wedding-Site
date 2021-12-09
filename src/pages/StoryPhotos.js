@@ -63,9 +63,6 @@ class StoryPhotos extends React.Component {
           <SEO title="Joseph & Mikhaila's Wedding" />
           <div className=".container.is-fullhd">
             <div className="container">
-              <div className="about">
-                
-                </div>
                </div>
                 <div className="mtn .container.is-fullhd">
                   
@@ -82,10 +79,12 @@ class StoryPhotos extends React.Component {
                   
                 </div>
                 <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
+                <div className="about">
                   <div className="ourStory" >
                     <p className="nameTitle">Joseph & Mikhaila</p>
                     <p className="descText">Joseph and Mikhaila met while in the English Master's program in the University of Colorado at Boulder.  </p>
                   </div>
+                </div>
                 </div>
                 <div className="container rsvp">
                   <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
