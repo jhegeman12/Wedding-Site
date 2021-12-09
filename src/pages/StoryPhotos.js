@@ -62,37 +62,16 @@ class StoryPhotos extends React.Component {
         <Layout>
           <SEO title="Joseph & Mikhaila's Wedding" />
           <div className=".container.is-fullhd">
-            <div >
-              <BackgroundImage className="cover" fluid={this.props.data.indexImage.childImageSharp.fluid}>
-              </BackgroundImage>
-            </div>
             <div className="container">
-              {/* <div className="about">
+              <div className="about">
                 <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <div className="ourStory" >
                     <p className="nameTitle">Joseph & Mikhaila</p>
-                    <p className="descText">
-                      Loremipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum. Lorem ipsum
-                      dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
+                    <p className="descText">Joseph and Mikhaila met while in the English Master's program in the University of Colorado at Boulder.  </p>
                   </div>
                   
                 </div>
-                </div> */}
+                </div>
                </div>
                 <div className="mtn .container.is-fullhd">
                   
