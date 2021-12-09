@@ -64,26 +64,28 @@ class StoryPhotos extends React.Component {
           <div className=".container.is-fullhd">
             <div className="container">
               <div className="about">
-                <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
-                  <div className="ourStory" >
-                    <p className="nameTitle">Joseph & Mikhaila</p>
-                    <p className="descText">Joseph and Mikhaila met while in the English Master's program in the University of Colorado at Boulder.  </p>
-                  </div>
-                  
-                </div>
+                
                 </div>
                </div>
                 <div className="mtn .container.is-fullhd">
                   
                   <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     
-                    <div className='column is-one-quarter is-offset-one-quarter'><div className="quote">
+                    <div className='column is-one-quarter is-offset-one-quarter'>
+                    <div className="quote">
                     What we find in a soul mate is not something wild to tame, but something wild to run with.
-                    </div></div>
+                    </div>
+                    </div>
                     
                     <div className="column"><Image4></Image4></div>
                   </div>
                   
+                </div>
+                <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
+                  <div className="ourStory" >
+                    <p className="nameTitle">Joseph & Mikhaila</p>
+                    <p className="descText">Joseph and Mikhaila met while in the English Master's program in the University of Colorado at Boulder.  </p>
+                  </div>
                 </div>
                 <div className="container rsvp">
                   <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
