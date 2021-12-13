@@ -73,7 +73,7 @@ class StoryPhotos extends React.Component {
                   
                 </div>
                 <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
-                <div className="about">
+                <div className="about .container.is-fullhd">
                   <div className="ourStory" >
                     <p className="details">About Us</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. Although we met in the Fall of 2019, we didn't start dating until Spring 2020 after Mikhaila slid into Joseph's DM's with a comic about cat butts. That summer Mikhaila dragged Joseph through his 26th birthday marathon training (26 in 26, get it?).</p>
