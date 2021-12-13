@@ -326,6 +326,12 @@
   font-weight: 300;
 }
 
+#engage-photos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 450px) {
   .cover {
     height: 50vh;
