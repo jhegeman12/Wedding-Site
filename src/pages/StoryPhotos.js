@@ -78,7 +78,7 @@ class StoryPhotos extends React.Component {
                     <p className="details">Our Story</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. We met Fall 2018, but began dating Summer 2019.</p>
                   </div>
-                  <Image2></Image2>
+                  <Image4></Image4>
                   <div>
 
                   </div>
