@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 
 import Image4 from '../components/mtnImg'  
+import Image2 from '../components/image2'  
 import SEO from "../components/seo"
 import "../components/index.css"
 import "../components/mystyles.scss"
@@ -78,7 +79,7 @@ class StoryPhotos extends React.Component {
                     <p className="details">Our Story</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. We met Fall 2018, but began dating Summer 2019.</p>
                   </div>
-                  <Image4></Image4>
+                  <Image2></Image2>
                   <div>
 
                   </div>
