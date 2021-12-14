@@ -55,7 +55,6 @@ class StoryPhotos extends React.Component {
     return (
       <Page pose={this.state.isVisible ? "visible" : "hidden"}>
         <Layout>
-          <SEO title="Joseph & Mikhaila's Wedding" />
                 <div className="mtn .container.is-fullhd">
                   <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <div className='column is-one-quarter is-offset-one-quarter'>
@@ -66,18 +65,21 @@ class StoryPhotos extends React.Component {
                     <div className="column"><Image4></Image4></div>
                   </div>
                 </div>
+                
                 <div className="about .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <div className="ourStory" >
                     <p className="details">Our Story</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. We met Fall 2018, but began dating Summer 2019.</p>
                   </div>
                 </div>
-                <div className="floatImg">
+                <div className="Img">
                   <Image2></Image2>
-                </div>    
+                </div> 
+
                 <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
-                </div> 
+                </div>
+
                 <div className="countdown .container.is-fullhd">
                   <br></br>
                   <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>

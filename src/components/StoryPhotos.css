@@ -30,7 +30,7 @@
 }
 
 .about {
-border: 1px;
+  border: 10px;
 }
 
 .quote {
@@ -67,7 +67,7 @@ border: 1px;
   border: 3px solid rgb(2, 27, 74);
 }
 
-.floatImg {
+.Img {
   height: 30%;
   width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
