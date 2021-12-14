@@ -71,20 +71,20 @@ class StoryPhotos extends React.Component {
                     <p className="details">Our Story</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. We met Fall 2018, but began dating Summer 2019.</p>
                   </div>
-                  </div>
-                  <div className="floatImg">
+                </div>
+                <div className="floatImg">
                   <Image2></Image2>
-                  </div>    
-            <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
-              <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
-            </div> 
-            <div className="countdown .container.is-fullhd">
-              <br></br>
-              <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
-              <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
-              <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
-              <span className='countNumber'>{this.state.seconds}</span> <span className='countText'>SECONDS </span>
-            </div>
+                </div>    
+                <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
+                  <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
+                </div> 
+                <div className="countdown .container.is-fullhd">
+                  <br></br>
+                  <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
+                  <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
+                  <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
+                  <span className='countNumber'>{this.state.seconds}</span> <span className='countText'>SECONDS </span>
+                </div>
         </Layout>
       </Page>
     )
