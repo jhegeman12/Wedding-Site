@@ -6,7 +6,7 @@ import Image from "../components/image"
 import Image4 from '../components/mtnImg'  
 import Image2 from '../components/image2'  
 import SEO from "../components/seo"
-import "../components/index.css"
+import "../components/StoryPhotos.css"
 import "../components/mystyles.scss"
 import posed from "react-pose"
 import BackgroundImage from 'gatsby-background-image'
