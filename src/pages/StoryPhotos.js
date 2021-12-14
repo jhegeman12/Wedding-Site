@@ -78,7 +78,7 @@ class StoryPhotos extends React.Component {
             <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
               <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
             </div> 
-            <div className='countdown .container.is-fullhd'>
+            <div className="countdown .container.is-fullhd">
               <br></br>
               <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
               <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
