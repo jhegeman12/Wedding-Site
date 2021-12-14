@@ -56,23 +56,17 @@ class StoryPhotos extends React.Component {
       <Page pose={this.state.isVisible ? "visible" : "hidden"}>
         <Layout>
           <SEO title="Joseph & Mikhaila's Wedding" />
-          <div className=".container.is-fullhd">
                 <div className="mtn .container.is-fullhd">
-                  
                   <div className="columns" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                    
                     <div className='column is-one-quarter is-offset-one-quarter'>
                     <div className="quote">
                     What we find in a soul mate is not something wild to tame, but something wild to run with.
                     </div>
                     </div>
-                    
                     <div className="column"><Image4></Image4></div>
                   </div>
-                  
                 </div>
-                <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
-                <div className="about .container.is-fullhd">
+                <div className="about .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <div className="ourStory" >
                     <p className="details">Our Story</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. We met Fall 2018, but began dating Summer 2019.</p>
@@ -80,25 +74,7 @@ class StoryPhotos extends React.Component {
                   </div>
                   <div className="floatImg">
                   <Image2></Image2>
-                  </div>
-                </div>  
-            <div className="info .container.is-fullhd">
-            <div className="container" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-              </div>   
-              </div>   
-             <div className='column is-8 is-offset-2'>
-              <div className="columns">
-                 </div>
-                </div>
-            
-
-              </div>
-
-            <div className="reg .container.is-fullhd">
-            <div className="container" data-sal="fade-in"></div>
-             <div className='column is-8 is-offset-2' data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-             </div>
-            </div>
+                  </div>    
             <div className="container rsvp">
               <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
             </div> 
