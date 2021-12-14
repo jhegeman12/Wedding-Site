@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 
 import Image4 from '../components/mtnImg' 
-import Image2 from '../components/image2' 
+import { Image2 } from '../components/image2' 
 import SEO from "../components/seo"
 import "../components/index.css"
 import "../components/mystyles.scss"
