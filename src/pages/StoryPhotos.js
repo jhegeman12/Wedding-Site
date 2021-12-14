@@ -105,6 +105,7 @@ class StoryPhotos extends React.Component {
               <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
             </div> 
             <div className='countdown'>
+              <br></br>
               <span className='countNumber'>{this.state.days}</span> <span className='countText'>DAYS </span>
               <span className='countNumber'>{this.state.hours}</span> <span className='countText'>HOURS </span>
               <span className='countNumber'>{this.state.minutes}</span> <span className='countText'>MINUTES </span>
