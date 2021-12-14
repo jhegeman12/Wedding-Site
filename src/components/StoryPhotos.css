@@ -24,57 +24,6 @@
   margin: 0 !important;
 }
 
-.cover {
-  height: 100vh;
-}
-
-.coverText {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.coverTitle {
-  padding: 0px;
-  margin: 0px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 90px;
-  color: rgb(255, 255, 255);
-}
-
-.and {
-  color: rgb(255, 255, 255);
-  font-family: "Amatic SC", cursive;
-}
-
-.coverDesc {
-  padding: 0px;
-  margin: 0px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 600;
-  font-size: 60px;
-  color: rgb(255, 255, 255);
-}
-
-.about {
-  margin: 50px;
-  padding: 20px;
-}
-
-.nameTitle {
-  font-family: "Amatic SC", cursive;
-  font-size: 20px;
-}
-
-.descText {
-  font-family: "Amatic SC", cursive;
-  font-weight: 300;
-}
-
 .mtn {
   width: 100%;
   background-color: rgb(243, 242, 241);
@@ -115,36 +64,10 @@
   border: 3px solid rgb(2, 27, 74);
 }
 
-.images {
-  padding: 22px;
-}
-
-.bigImg {
-  height: 100%;
-  width: 100%;
-}
-
 .floatImg {
   height: 30%;
   width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.floatImg2 {
-  height: 50%;
-  width: 50%;
-  position: relative;
-  left: 63%;
-  top: -20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.info {
-  width: 100%;
-  min-height: 500px;
-  background-color: rgb(222, 234, 252);
-  padding-top: 45px;
-  padding-bottom: 40px;
 }
 
 .details {
@@ -154,113 +77,10 @@
   font-size: 55px;
 }
 
-.detailsSub {
-  padding: 5px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 40px;
-}
-
-.detailsSub2 {
-  padding: 5px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 30px;
-}
-
 .detailsText {
   font-family: "Epilogue", sans-serif;
   font-weight: 400;
   padding: 5px;
-}
-
-.acLink {
-  margin-top: 25px;
-  text-decoration: underline;
-  font-weight: 700;
-  font-family:"Epilogue", sans-serif;
-  color: rgb(2, 27, 74);
-}
-
-.acLink a {
-  color: rgb(2, 27, 74);
-}
-
-.timeline {
-  background-color: white;
-  position: relative;
-  top: -50px;
-}
-
-.timelineTitle {
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  text-align: center;
-  font-size: 25px;
-}
-
-.timelineTime {
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  text-align: center;
-  font-size: 22px;
-}
-
-.center {
-  text-align: center;
-}
-
-.iconFA {
-  font-size: 50px;
-  margin: 0 0 25px 0;
-}
-
-.nameContainer {
-  padding-left: 10px;
-  padding-top: 15px;
-}
-
-.nameSubText {
-  font-style: italic;
-}
-
-.reg {
-  background-color: rgb(222, 234, 252);
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.regTitle {
-  margin-top: 10px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 38px;
-  background-color: rgb(222, 234, 252);
-}
-
-.regText {
-  font-family: "Epilogue", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  background-color: rgb(222, 234, 252);
-}
-
-.regButton {
-  margin-right: 25px;
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 25px;
-  padding: 20px;
-  color: rgb(2, 27, 74);
-  background-color: white;
-  border: 3px solid rgb(245, 181, 132);
-  transition: 0.2s;
-  text-align: center;
-}
-
-.regButton:hover {
-  background-color: rgb(2, 27, 74);
-  color: white;
-  border: 3px solid rgb(2, 27, 74);
 }
 
 .countdown {
