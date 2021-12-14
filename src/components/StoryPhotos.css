@@ -29,6 +29,10 @@
   background-color: rgb(243, 242, 241);
 }
 
+.about {
+border: 1px;
+}
+
 .quote {
   margin: 30px;
   line-height: 30px;
@@ -42,7 +46,6 @@
 
 .rsvp {
   text-align: center;
-  position: relative;
   background-color: rgb(2, 27, 74);
 }
 
