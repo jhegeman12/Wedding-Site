@@ -101,7 +101,7 @@ class StoryPhotos extends React.Component {
              <div className='column is-8 is-offset-2' data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
              </div>
             </div>
-            <div className="container rsvp" style="padding-top= 10px;">
+            <div className="container rsvp">
               <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
             </div> 
             <div className='countdown'>
