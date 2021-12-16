@@ -68,9 +68,11 @@ class StoryPhotos extends React.Component {
                 </div>
                 
                 <div className="about .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
+                  <div className='column is-8 is-offset-2'>
                   <div className="ourStory" >
                     <p className="details">Our Story</p>
                     <p className="detailsText">Thanks for checking out this page! We met in the English Master's program in the University of Colorado at Boulder. We met Fall 2018, but began dating Summer 2019.</p>
+                  </div>
                   </div>
                 </div>
                 <div className="Img">
