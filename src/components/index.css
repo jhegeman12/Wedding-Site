@@ -185,6 +185,14 @@
   color: rgb(2, 27, 74);
 }
 
+.acLink2 {
+  margin-top: 10px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-family:"Epilogue", sans-serif;
+  color: rgb(2, 27, 74);
+}
+
 .acLink a {
   color: rgb(2, 27, 74);
 }

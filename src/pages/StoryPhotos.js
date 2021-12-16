@@ -78,7 +78,15 @@ class StoryPhotos extends React.Component {
                 <div className="Img">
                   <Image2></Image2>
                 </div> 
-
+                <div className='column is-8 is-offset-2'>
+                  <p className="detailsText"> Over the summer, we trained for a marathon together (Mikhaila only did a 3/4 marathon), adn shared a love of outdoor adventure activities, books, and a shared visino of partnership idk</p>
+                </div>
+                <div className="Img">
+                  <Image3></Image3>
+                </div> 
+                <div className='column is-8 is-offset-2'>
+                  <p className="detailsText">Does Mikhaila love him? I love him awful</p>
+                </div>
                 <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
                 </div>

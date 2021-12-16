@@ -177,9 +177,9 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
                     <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area. For larger groups, there are also many vacation house rentals available on Airbnb and Vrbo.</p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
-                    <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
+                    <p className="acLink2"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
+                    <p className="acLink2"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
+                    <p className="acLink2"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     <br></br>
                     <p className="detailsSub2">COVID Information</p>
                     <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policiies.</p>
