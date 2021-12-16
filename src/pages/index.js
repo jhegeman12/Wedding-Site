@@ -75,32 +75,6 @@ class IndexPage extends React.Component {
               </BackgroundImage>
             </div>
             <div className="container">
-              {/* <div className="about">
-                <div data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
-                  <div className="ourStory" >
-                    <p className="nameTitle">Joseph & Mikhaila</p>
-                    <p className="descText">
-                      Loremipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum. Lorem ipsum
-                      dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  
-                </div>
-                </div> */}
                </div>
                 <div className="mtn .container.is-fullhd">
                   
@@ -123,12 +97,6 @@ class IndexPage extends React.Component {
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
                     <Image />
                   </div>
-                    {/* <div className="floatImg" data-sal="fade-in" data-sal-delay="700" data-sal-easing="ease" data-sal-duration='1000'>
-                      <Image2 />
-                    </div>
-                    <div className="floatImg2" data-sal="fade-in" data-sal-delay="900" data-sal-easing="ease" data-sal-duration='1000'>
-                      <Image3 />
-                    </div> */}
                 </div>
                 
             <div className="info .container.is-fullhd">
@@ -209,11 +177,12 @@ class IndexPage extends React.Component {
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
                     <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area. For larger groups, there are also many vacation house rentals available on Airbnb and Vrbo.</p>
-                    <br></br>
-                    <br></br>
                     <p className="acLink"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
+                    <br></br>
+                    <p className="DetailsSub2">COVID Information</p>
+                    <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19 when attending. IF there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. This information will liekly change over time, so please stay up to date with California COVID and travel policiies.</p>
                  </div>
                  </div>
                 </div>
