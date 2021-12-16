@@ -181,8 +181,8 @@ class IndexPage extends React.Component {
                     <p className="acLink"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     <br></br>
-                    <p className="DetailsSub2">COVID Information</p>
-                    <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19 when attending. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. This information will likely change over time, so please stay up to date with California COVID and travel policiies.</p>
+                    <p className="detailsSub2">COVID Information</p>
+                    <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policiies.</p>
                  </div>
                  </div>
                 </div>
