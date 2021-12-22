@@ -132,12 +132,12 @@ class IndexPage extends React.Component {
                   <FontAwesomeIcon icon={faRing} className="iconFA" />
                   <p className="timelineTitle">Ceremony Begins</p>
                   <p className="timelineTime">Saturday - 10/15</p>
-                  <p className="timelineTime">3:30 PM</p>
+                  <p className="timelineTime">3:45 PM</p>
                 </div>
                 <div className="column center">
                   <FontAwesomeIcon icon={faGlassCheers} className="iconFA" />
                   <p className="timelineTitle">Cocktails</p>
-                  <p className="timelineTime">4:45 PM</p>
+                  <p className="timelineTime">4:30 PM</p>
                 </div>
                 <div className="column center">
                   <FontAwesomeIcon icon={faPlaceOfWorship} className="iconFA" />
