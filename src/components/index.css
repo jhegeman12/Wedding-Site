@@ -84,7 +84,7 @@
   line-height: 30px;
   padding: 15px;
   font-family: "Amatic SC", cursive;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   border-top: 2px solid rgb(2, 27, 74);
   border-bottom: 2px solid rgb(2, 27, 74);
@@ -211,14 +211,14 @@
   font-family: "Amatic SC", cursive;
   font-weight: 700;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .timelineTime {
   font-family: "Amatic SC", cursive;
   font-weight: 700;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .center {
@@ -329,7 +329,7 @@
 }
 
 .countNumber {
-  font-family: "Playfair Display", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 15px;
 }
 
