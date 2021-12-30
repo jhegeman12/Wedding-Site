@@ -90,12 +90,12 @@ class StoryPhotos extends React.Component {
                   <p className="detailsText">Does Mikhaila love him? I love him awful</p>
                 </div>
                 <div className="picframe">
-                  <Image4></Image4>
+                  <Image5></Image5>
                 </div> 
-                <div>
-                  <p>We'll see you in Tahoe!</p>
+                <div className='column is-8 is-offset-2'>
+                  <p className="detailsText">Does Mikhaila love him? I love him awful</p>
                 </div>
-                <div>
+                <div className="picframe">
                 <Final></Final>
                 </div>
                 <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
