@@ -14,7 +14,6 @@ import "../components/mystyles.scss"
 import posed from "react-pose"
 import BackgroundImage from 'gatsby-background-image'
 import { graphql, Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -93,9 +92,7 @@ class StoryPhotos extends React.Component {
                   <p className="detailsText">Does Mikhaila love him? I love him awful</p>
                 </div>
                 <div className="picframe">
-                  <Staticimage className="picframe"
-                  src="../images/red.jpg">
-                  </Staticimage>
+                  <Red className="picframe"></Red>
                 </div>
                 <div className='column is-8 is-offset-2'>
                   <p className="detailsText">More filler text</p>
