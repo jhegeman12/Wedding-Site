@@ -68,7 +68,7 @@
   border: 3px solid rgb(2, 27, 74);
 }
 
-.Img {
+.picframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -77,7 +77,7 @@
   height: 30%;
   width: 30%;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 100px;
+  border-radius: 5%;
 }
 
 .details {
