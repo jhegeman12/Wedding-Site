@@ -100,7 +100,7 @@ class StoryPhotos extends React.Component {
                 <div className='picframe'>
                   <Engage></Engage>
                 </div>
-                <div className='column is-8 is-offset-4'>
+                <div className='column is-8 is-offset-5'>
                   <p className="detailsText">We'll see you in Tahoe!</p>
                 </div>
                 <div className="picframe">
