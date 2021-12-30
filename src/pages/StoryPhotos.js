@@ -91,7 +91,7 @@ class StoryPhotos extends React.Component {
                 </div>
                 {/*
                 <div>
-                  <Image6></Image6>
+                  <Red></Red>
                 </div>
                 */}
                 <div className='column is-8 is-offset-2'>
