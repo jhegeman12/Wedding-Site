@@ -95,11 +95,12 @@ class StoryPhotos extends React.Component {
                 </div>
                 */}
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">Does Mikhaila love him? I love him awful</p>
+                  <p className="detailsText">We'll see you in Tahoe!</p>
                 </div>
                 <div className="picframe">
                 <Final></Final>
                 </div>
+                <br></br>
                 <div className="rsvp .container.is-fullhd" data-sal="fade-in" data-sal-delay="300" data-sal-easing="ease" data-sal-duration='1000'>
                   <a href='https://josephandmikhaila.com' className='rsvpButton'>Return Home</a>
                 </div>
