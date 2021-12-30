@@ -7,6 +7,7 @@ import Image4 from '../components/mtnImg'
 import Image2 from '../components/image2' 
 import Image3 from '../components/image3' 
 import Red from '../components/red' 
+import Engage from '../components/engage' 
 import SEO from "../components/seo"
 import "../components/StoryPhotos.css"
 import "../components/mystyles.scss"
@@ -94,6 +95,12 @@ class StoryPhotos extends React.Component {
                   <Red className="picframe"></Red>
                 </div>
                 <div className='column is-8 is-offset-2'>
+                  <p className="detailsText">More filler text</p>
+                </div>
+                <div className='picframe'>
+                  <Engage></Engage>
+                </div>
+                <div className='column is-8 is-offset-4'>
                   <p className="detailsText">We'll see you in Tahoe!</p>
                 </div>
                 <div className="picframe">
