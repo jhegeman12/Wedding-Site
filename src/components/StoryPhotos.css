@@ -81,6 +81,7 @@
   border-radius: 25px;
   border: 10px;
   border-color: black;
+  border-style: solid;
 }
 
 .details {
