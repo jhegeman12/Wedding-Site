@@ -14,6 +14,7 @@ import "../components/mystyles.scss"
 import posed from "react-pose"
 import BackgroundImage from 'gatsby-background-image'
 import { graphql, Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
