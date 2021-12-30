@@ -6,6 +6,7 @@ import Image from "../components/image"
 import Image4 from '../components/mtnImg'  
 import Image2 from '../components/image2' 
 import Image3 from '../components/image3' 
+import Red from '../components/red' 
 import SEO from "../components/seo"
 import "../components/StoryPhotos.css"
 import "../components/mystyles.scss"
@@ -89,9 +90,9 @@ class StoryPhotos extends React.Component {
                 <div className='column is-8 is-offset-2'>
                   <p className="detailsText">Does Mikhaila love him? I love him awful</p>
                 </div>
-                {/*<div className="picframe">
+                <div className="picframe">
                   <Red></Red>
-                  </div>*/}
+                 </div>
                 <div className='column is-8 is-offset-2'>
                   <p className="detailsText">We'll see you in Tahoe!</p>
                 </div>
