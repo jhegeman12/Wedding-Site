@@ -18,13 +18,8 @@ const Red = () => {
     query {
       placeholderImage: file(relativePath: { eq: "red.jpg" }) {
         childImageSharp {
-          gatsbyImageData(
-            height: 200
-            )
           fluid(quality: 100)
-          {
-            ...GatsbyImageSharpFluid
-          }
+          {...GatsbyImageSharpFluid}
         }
       }
     }
