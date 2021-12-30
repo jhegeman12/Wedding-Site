@@ -92,7 +92,9 @@ class StoryPhotos extends React.Component {
                   <p className="detailsText">Does Mikhaila love him? I love him awful</p>
                 </div>
                 <div className="picframe">
-                  <Red className="picframe"></Red>
+                  <Staticimage className="picframe"
+                  src="../images/red.jpg">
+                  </Staticimage>
                 </div>
                 <div className='column is-8 is-offset-2'>
                   <p className="detailsText">More filler text</p>
