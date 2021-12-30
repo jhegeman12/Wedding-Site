@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
-                    <p className="detailsText">The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge. </p>
+                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge, and we ask that guests do not takae their own photos. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
@@ -182,7 +182,7 @@ class IndexPage extends React.Component {
                     <p className="acLink2"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     <br></br>
                     <p className="detailsSub2">COVID Information</p>
-                    <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policiies.</p>
+                    <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policiies. We will also continue to update this page.</p>
                  </div>
                  </div>
                 </div>
@@ -222,8 +222,8 @@ class IndexPage extends React.Component {
                   <p className="regText">While we will love anything on these lists, the most important gift to us is the chance to celebrate our day with you. </p>
                   <br></br>
                   <br></br>
-                  <a href='https://www.crateandbarrel.com/gift-registry/danielle-evans-and-tom-settle/r6199513' target='_blank' rel="noreferrer" className="regButton">CRATE & BARREL</a>
-                  <a href='https://www.target.com/gift-registry/giftgiver?registryId=66cf6664801247aa8e1f12ec5e5d9bb3&lnk=registry_custom_url' target='_blank' rel="noreferrer" className="regButton">TARGET</a>
+                  <a href='https://registry.theknot.com/joseph-hegeman-mikhaila-redovian-october-2022-ca/45414721' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
+                  <a href='https://www.myregistry.com/wedding-registry/joseph-hegeman-and-mikhaila-redovian-sacramento-ca/3128622' target='_blank' rel="noreferrer" className="regButton">MyREGISTRY</a>
                   <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
                 </div>
                 <div className="column">
