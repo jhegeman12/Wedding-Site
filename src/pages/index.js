@@ -231,7 +231,7 @@ class IndexPage extends React.Component {
                 <p className="regText">If you want a little more Mikhaila and Joseph content, we're happy to share our meet-cute and more photos at the link below.</p>
                 <br></br>
                 <br></br>
-                <a href='https://josephandmikhaila.com/StoryPhotos' rel="noreferrer" className="regButton">J & M</a>
+                <Link to="/StoryPhotos" rel="noreferrer" className="regButton">J & M</Link> 
                 </div>
               </div>
              </div>
