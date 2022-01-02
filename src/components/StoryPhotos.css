@@ -95,6 +95,12 @@
   padding: 5px;
 }
 
+.endText {
+  font-family: "Epilogue", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 5px;
+}
 .countdown {
   text-align: center;
 }
