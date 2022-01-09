@@ -176,7 +176,7 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
-                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe if you follow the link below. If you are not interested in staying at the Palisades lodge, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area. For larger groups, or if you would liek to pool with other guests, there are also many vacation house rentals available on Airbnb and Vrbo.</p>
+                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe if you follow the link below. For larger groups, or if you would liek to pool with other guests, there are many vacation house rentals available on Airbnb and Vrbo. If you are not interested in either of those options, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area.</p>
                     <p className="acLink2"><a rel="noreferrer" href='https://book.squawalpine.com/Ecomm/Package/Package/9801138/en-US/?packageid=60460&promocode=RedovianHegeman' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
                     <p className="acLink2"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink2"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
@@ -219,7 +219,7 @@ class IndexPage extends React.Component {
               <div className="columns">
                 <div className="column">
                   <p className="regTitle">Registry</p>
-                  <p className="regText">While we will love anything on these lists, the most important gift to us is the chance to celebrate our day with you. </p>
+                  <p className="regText">While we will love anything on these lists, we understand how much time, money, and effort it will take for many of you to attend the wedding, so the most important gift to us is the chance to celebrate our day with you. </p>
                   <br></br>
                   <br></br>
                   <a href='https://registry.theknot.com/joseph-hegeman-mikhaila-redovian-october-2022-ca/45414721' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
