@@ -83,7 +83,7 @@ class IndexPage extends React.Component {
                     <div className='column is-one-quarter is-offset-one-quarter'><div className="quote">
                     What we find in a soul mate is not something wild to tame, but something wild to run with.
                     </div></div>
-                    
+                
                     <div className="column"><Image4></Image4></div>
                   </div>
                   
@@ -95,7 +95,7 @@ class IndexPage extends React.Component {
               
                 <div className='container images'>
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
-                    <Image />
+                    <Image/>
                   </div>
                 </div>
                 
@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
-                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge, and we ask that guests do not takae their own photos. </p>
+                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge, and we ask that guests do not take their own photos during the ceremony. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
@@ -176,8 +176,8 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
-                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe. Please mention the Redovian-Hegeman wedding to receive the discount. If you are not interested in staying at the Palisades lodge, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area. For larger groups, there are also many vacation house rentals available on Airbnb and Vrbo.</p>
-                    <p className="acLink2"><a rel="noreferrer" href='https://www.palisadestahoe.com/plan-your-visit/lodging' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
+                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe if you follow the link below. If you are not interested in staying at the Palisades lodge, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area. For larger groups, or if you would liek to pool with other guests, there are also many vacation house rentals available on Airbnb and Vrbo.</p>
+                    <p className="acLink2"><a rel="noreferrer" href='https://book.squawalpine.com/Ecomm/Package/Package/9801138/en-US/?packageid=60460&promocode=RedovianHegeman' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
                     <p className="acLink2"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink2"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     <br></br>
@@ -224,7 +224,6 @@ class IndexPage extends React.Component {
                   <br></br>
                   <a href='https://registry.theknot.com/joseph-hegeman-mikhaila-redovian-october-2022-ca/45414721' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
                   <a href='https://www.myregistry.com/wedding-registry/joseph-hegeman-and-mikhaila-redovian-sacramento-ca/3128622' target='_blank' rel="noreferrer" className="regButton">MyREGISTRY</a>
-                  <a href='https://registry.theknot.com/danielle-evans-tom-settle-august-2021-in/42170338' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
                 </div>
                 <div className="column">
                 <p className="regTitle">More Joseph and Mikhaila</p>
