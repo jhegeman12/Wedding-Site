@@ -219,7 +219,7 @@ class IndexPage extends React.Component {
               <div className="columns">
                 <div className="column">
                   <p className="regTitle">Registry</p>
-                  <p className="regText">While we will love anything on these lists, we understand how much time, money, and effort it will take for many of you to attend the wedding, so the most important gift to us is the chance to celebrate our day with you. </p>
+                  <p className="regText">While we will love anything on these lists, we understand how much time, money, and effort it will take for many of you to travel for the wedding, so the most important gift to us is the chance to celebrate our day with you. </p>
                   <br></br>
                   <br></br>
                   <a href='https://registry.theknot.com/joseph-hegeman-mikhaila-redovian-october-2022-ca/45414721' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
