@@ -75,7 +75,7 @@ class StoryPhotos extends React.Component {
                   <div className='column is-8 is-offset-2'>
                   <div className="ourStory" >
                     <p className="details">Our Story</p>
-                    <p className="detailsText">Thanks for checking out this page! We met in the English Master's program at the University of Colorado - Boulder. We met Fall 2018 in a Romantic poetry class, and began dating in late Spring 2019. As you can guess, we both love books and stories, but we have since bonded over so much more.</p>
+                    <p className="detailsText">Thanks for checking out this page! We met in the English Master's program at the University of Colorado, Boulder, in the fall of 2018. Ironically enough, we met in a Romantic poetry class but didn't start dating until the late spring of 2019. We first bonded over a shared love of stories and books, but we found that our connection was special over the summer and more than just stories and books. </p>
                   </div>
                   </div>
                 </div>
@@ -86,19 +86,33 @@ class StoryPhotos extends React.Component {
                   </Image2>
                 </div> 
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText"> Over the summer of 2019, we spent a lot of time together before Mikhaila started working for at CU. We trained for a marathon together (Mikhaila only did a 3/4 marathon), adn shared a love of outdoor adventure activities, books, and a shared vision of partnership idk</p>
+                  <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. As Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner (Ed. note – D1!), we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
+</p>
                 </div>
                 <div className="picframe">
                 <Red className="picframe"></Red>
                 </div> 
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">In March 2020, as COVID began to shut everything down and Joseph finished up his Master's, Mikhaila was accepted into the Ph. D program at UC - Davis, just outside of Sacramento. At that point, JOseph's Fulbright plans were up in the air, but we both knew what our relationship was, and how much we meant to each other, so we moved to Davis together. We got to California in the midst of a recession, raging wildfires, and of course, COVID lockdowns. But neither of us has regretted the time we've been able to spend together, and in between the apocalyptic smoky air and hours of Netflix, we were able to string together many wonderful moments engaging with each other and the majestic world in the Sierras.</p>
+                  <p className="detailsText">The following fall and winter seemed to fly by. Trips to Puerto Rico and Big Sky, Montana proved that we could even survive traveling together. By Spring of 2020, Joseph got his own advanced degree so Mikhaila couldn't lord that over him, received a Fulbright Scholarship to Azerbaijan, and Mikhaila was accepted into the English Ph.D. program at the University of California Davis. We prepared to continue seeing each other across continents, but Covid had other plans. After a measure of uncertainty, we moved to Davis together, no passport needed. Even with the challenges of adjusting to new careers, continuing covid isolation, and choking wildfires, we kept our spirits up throughout 2020 and 2021 by watching too much Netflix, Studio Ghibli, and getting to know our block realllllly well. 
+.</p>
                 </div>
                 <div className="picframe">
                   <Image3></Image3>
                 </div>
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">For the proposal, Joseph made a bit of a mess of it (although Mikhaila said yes so not that bad). Joseph hadn'tt planned on proposing on Valentine's (so cliche), and even left the ring at home, but the moment felt right during a great day skiing. At the top of Emigrant Gat Palisades, while the sun set on a powder day, Joseph clipped out of his skis, got down on one knee, and asked Mikhaila to be partners forever, and she said yes. When we got home to Davis, Joseph asked again, but with a ring, and Mikhaila said yes again. Since then, we've moved to Sacramento, but Palisades and Tahoe remain close to our hearts. We know many of you will be traveling a long way to attend, and from the bottom of our hearts we appreciate all the time, money, and effort that you will put into attending. We're excited to excited to share with you a place that has so much meaning to us on the day we join our lives in marriage. Because Lake Tahoe means so much us, we would like to acknowledge that our wedding is on land belonging to the Wašišiw (Washo) people. We advocate for their restoration as the caretakers of this land. We ask that all of our guests show respect and care to the Lake Tahoe environment, and we ask that each guest reflect on what they can do to engage with, honor, protect, and celebrate the lives of Indigenous people. </p>
+                  <p className="detailsText">When the snow started to fly, we got to explore the Sierras on skis, and this quickly became our favorite part of living in California. It was only fitting then that Joseph proposed at the top of the Emigrant Lift at Palisades on an unexpected powder day. Even though it was Valentine's Day (Ed note - So cliche), and even though Joseph hadn't brought the ring with him, Mikhaila still said yes. Joseph even had a chance at a do-over later that night, ring included. The answer was still the same. </p>
+                </div>
+                <div className='picframe'>
+                  <Engage></Engage>
+                </div>
+                <div className='column is-8 is-offset-2'>
+                  <p className="detailsText">Lake Tahoe and Palisades are some of our favorite places, and we're so excited to share them with all of the people who have made our journey and our lives special. We know it will be an extensive trek for most, and we appreciate you being there on our big day.  </p>
+                </div>
+                <div className='picframe'>
+                  <Engage></Engage>
+                </div>
+                <div className='column is-8 is-offset-2'>
+                  <p className="detailsText">Because Lake Tahoe means so much to us, and the places we have lived are so integral to our story, we would like to acknowledge that our wedding is on the land of the Wašišiw (Washo) people. We advocate for their restoration as the caretakers of this land. As we are all guests on this land, we ask that everyone treat the Lake Tahoe environment with a sense of respect and reciprocity. We ask that each person reflect and act on what they can do to engage with, honor, protect, and celebrate Indigenous people and places.  </p>
                 </div>
                 <div className='picframe'>
                   <Engage></Engage>
