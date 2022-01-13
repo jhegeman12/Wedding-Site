@@ -106,13 +106,7 @@ class StoryPhotos extends React.Component {
                   <Engage></Engage>
                 </div>
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">Lake Tahoe and Palisades are some of our favorite places, and we're so excited to share them with all of the people who have made our journey and our lives special. We know it will be an extensive trek for most, and we appreciate you being there on our big day.  </p>
-                </div>
-                <div className='picframe'>
-                  <Engage></Engage>
-                </div>
-                <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">Because Lake Tahoe means so much to us, and the places we have lived are so integral to our story, we would like to acknowledge that our wedding is on the land of the Wašišiw (Washo) people. We advocate for their restoration as the caretakers of this land. As we are all guests on this land, we ask that everyone treat the Lake Tahoe environment with a sense of respect and reciprocity. We ask that each person reflect and act on what they can do to engage with, honor, protect, and celebrate Indigenous people and places.  </p>
+                  <p className="detailsText">Lake Tahoe and Palisades are some of our favorite places, and we're so excited to share them with all of the people who have made our journey and our lives special. We know it will be an extensive trek for most, and we appreciate you being there on our big day. Because Lake Tahoe means so much to us, and the places we have lived are so integral to our story, we would like to acknowledge that our wedding is on the land of the Wašišiw (Washo) people. We advocate for their restoration as the caretakers of this land. As we are all guests on this land, we ask that everyone treat the Lake Tahoe environment with a sense of respect and reciprocity. We ask that each person reflect and act on what they can do to engage with, honor, protect, and celebrate Indigenous people and places.   </p>
                 </div>
                 <div className='picframe'>
                   <Engage></Engage>
