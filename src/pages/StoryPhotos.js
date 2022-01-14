@@ -86,7 +86,7 @@ class StoryPhotos extends React.Component {
                   </Image2>
                 </div> 
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. As Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner (Ed. note – D1!), we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
+                  <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. As Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner <i>(Ed. note – D1!)</i>, we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
 </p>
                 </div>
                 <div className="picframe">
@@ -100,7 +100,7 @@ class StoryPhotos extends React.Component {
                   <Image3></Image3>
                 </div>
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">When the snow started to fly, we got to explore the Sierras on skis, and this quickly became our favorite part of living in California. It was only fitting then that Joseph proposed at the top of the Emigrant Lift at Palisades on an unexpected powder day. Even though it was Valentine's Day (Ed note - So cliche), and even though Joseph hadn't brought the ring with him, Mikhaila still said yes. Joseph even had a chance at a do-over later that night, ring included. The answer was still the same. </p>
+                  <p className="detailsText">When the snow started to fly, we got to explore the Sierras on skis, and this quickly became our favorite part of living in California. It was only fitting then that Joseph proposed at the top of the Emigrant Lift at Palisades on an unexpected powder day. Even though it was Valentine's Day <i>(Ed note - So cliche)</i>, and even though Joseph hadn't brought the ring with him, Mikhaila still said yes. Joseph even had a chance at a do-over later that night, ring included. The answer was still the same. </p>
                 </div>
                 <div className='picframe'>
                   <Engage></Engage>
