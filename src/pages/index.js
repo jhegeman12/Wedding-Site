@@ -105,15 +105,15 @@ class IndexPage extends React.Component {
                 <div className="columns">
                   <div className="column">
                     <p className="detailsSub">Welcome</p>
-                    <p className="detailsText">Please join us at the welcome ceremony the night before the wedding at Fireside Pizza in Palisades Village for pizza and beer. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night before the wedding. </p>
+                    <p className="detailsText">Please join us for a welcome ceremony the night before the wedding for casual food and drinks. The welcome will be located at Fireside Pizza in Palisades Village at 7:00 pm the night of October 14, 2022. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
-                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. There is free parking at the lodge, and we ask that guests do not take their own photos during the ceremony. </p>
+                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. Formal attire is requested. The ceremony will be held outside, please plan to dress accordingly. We ask that guests not take their own photos during the ceremony. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
-                    <p className="detailsText">Please join us for cocktail hour starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge at 6:00 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and food.</p>
+                    <p className="detailsText">Please join us for cocktails starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside at 6:00 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and snacks.</p>
                   </div>
                 </div>
                 
@@ -176,13 +176,13 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
-                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe if you follow the link below. For larger groups, or if you would liek to pool with other guests, there are many vacation house rentals available on Airbnb and Vrbo. If you are not interested in either of those options, there are many, many hotels in Olympic Valley, Truckee, Tahoe City, and the rest of the North Tahoe Area.</p>
+                    <p className="detailsText">There is a discounted rate for rooms in the Village at Palisades Tahoe if you follow the link below. For larger groups there are many vacation house rentals available on Airbnb and Vrbo. If you are not interested in either of those options, there are many hotels at varying prices in Olympic Valley, Truckee, and Tahoe City.</p>
                     <p className="acLink2"><a rel="noreferrer" href='https://book.squawalpine.com/Ecomm/Package/Package/9801138/en-US/?packageid=60460&promocode=RedovianHegeman' target="_blank">Village at Palisades</a></p><p style={{paddingLeft: "20px"}}></p>
                     <p className="acLink2"><a rel="noreferrer" href='https://www.airbnb.com/olympic-valley-ca/stays' target="_blank">Airbnb</a></p>
                     <p className="acLink2"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     <br></br>
                     <p className="detailsSub2">COVID Information</p>
-                    <p className="detailsText">For the safety of all attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policies. We will also continue to update this page.</p>
+                    <p className="detailsText">Unfortunately, it does not appear the pandemic will come to quick end. For the safety of the Lake Tahoe community and all guests attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policies. We will also continue to update this page.</p>
                  </div>
                  </div>
                 </div>
@@ -227,7 +227,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="column">
                 <p className="regTitle">More Joseph and Mikhaila</p>
-                <p className="regText">If you want a little more Mikhaila and Joseph content, we're happy to share our meet-cute and more photos at the link below.</p>
+                <p className="regText">If you want a little more Mikhaila and Joseph content, we're happy to share more at the link below.</p>
                 <br></br>
                 <br></br>
                 <br></br>
