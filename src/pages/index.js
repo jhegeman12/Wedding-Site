@@ -169,6 +169,7 @@ class IndexPage extends React.Component {
                     <p className="detailsSub">Getting Here</p>
                     <p className="detailsText">The two closest airports are Sacramento and Reno. To get from either airport to Palisades, we recommend renting a car, but public transportation options are available and listed below. Once you are in the North Tahoe area (Truckee, Tahoe City, Olympic Valley, Incline Village), the Tahoe Truckee Area Regional Transit (TART) can be used to get to Palisades and explore the North Lake Area.</p>   
                     <p className="acLink"><a rel="noreferrer" href='https://tahoetruckeetransit.com/' target="_blank">  Tahoe Area Regional Transit</a></p>
+                    <br></br>
                     <p className="detailsSub2">To Truckee/North Tahoe Area</p>
                     <p className="detailsText">The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.</p>  
                     <p className="acLink"><a rel="noreferrer" href='https://www.amtrak.com/california-zephyr-train' target="_blank">Amtrak - California Zephyr</a></p>
