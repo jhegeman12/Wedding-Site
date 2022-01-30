@@ -113,7 +113,7 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
-                    <p className="detailsText">Please join us for cocktails starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside at 6:00 PM. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and snacks.</p>
+                    <p className="detailsText">Please join us for cocktails starting immediately after the ceremony on the sun deck of the Olympic Valley Lodge. The reception will follow inside the lodge with dinner starting around 6. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and snacks.</p>
                   </div>
                 </div>
                 
