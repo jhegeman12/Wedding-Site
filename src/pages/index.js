@@ -184,7 +184,7 @@ class IndexPage extends React.Component {
                     <p className="acLink2"><a rel="noreferrer" href='https://www.vrbo.com/vacation-rentals/usa/california/lake-tahoe-ca/north-shore/squaw-valley' target="_blank">Vrbo</a></p>
                     <br></br>
                     <p className="detailsSub2">COVID Information</p>
-                    <p className="detailsText">Unfortunately, it does not appear the pandemic will come to quick end. For the safety of the Lake Tahoe community and all guests attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policies. We will also continue to update this page.</p>
+                    <p className="detailsText">Unfortunately, it does not appear the pandemic will come to a quick end. For the safety of the Lake Tahoe community and all guests attending, we are requiring that all guests be fully vaccinated against COVID 19. If there are circumstances where you cannot get vaccinated, please talk to Joseph and Mikhaila. COVID information will likely change over time, so please stay up to date with California COVID and travel policies. We will also continue to update this page.</p>
                  </div>
                  </div>
                 </div>
