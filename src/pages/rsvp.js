@@ -8,7 +8,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import { FormLabel } from "@material-ui/core";
 
 class RSVP extends React.Component{
-
+ 
     state = {
         party: "",
         body: [],
@@ -285,6 +285,7 @@ class RSVP extends React.Component{
             <div className='rsvpPage .container.is-fullhd columns'>
                 <div className="formContainer column is-one-third is-offset-one-third">
                     <p>Please enter your first and last name as shown on the invite and we will pull up your party name.</p>
+                    <p>Quote or Lyric about love you would like to share with the bride and groom</p>
                 <form onSubmit={this.getGuest} className='formRsvp'>
                     <div className='columns'>
                     <input className='rsvpInput column' placeholder="FIRST NAME" onChange={this.handleFirstNameChange} value={this.state.firstName}></input>
