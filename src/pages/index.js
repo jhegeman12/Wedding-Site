@@ -172,9 +172,10 @@ class IndexPage extends React.Component {
                     <br></br>
                     <br></br>
                     <p className="detailsSub2">To Truckee/North Tahoe Area</p>
-                    <p className="detailsText">The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area.</p>  
+                    <p className="detailsText">The California Zephyr Amtrak line runs between Reno and Sacramento, with a stop in Truckee, CA, but it does not start directly from the Sacramento or Reno airports. The North Lake Tahoe Express shuttle runs directly from the Reno International Airport to the North Lake Tahoe area. From Sacramento, there is a Greyhound bus line to Truckee. </p>  
                     <p className="acLink"><a rel="noreferrer" href='https://www.amtrak.com/california-zephyr-train' target="_blank">Amtrak - California Zephyr</a></p>
                     <p className="acLink"><a rel="noreferrer" href='https://www.northlaketahoeexpress.com/' target="_blank">North Lake Tahoe Express</a></p>
+                    <p className="acLink"><a rel="noreferrer" href='https://www.greyhound.com/en-us/bus-from-sacramento-to-truckee?gclid=Cj0KCQiAi9mPBhCJARIsAHchl1yqzrwmvl4w6Ebbz7WGFrdRwalqtJcep8SG7iPlXbbupi4rauAMdncaApqWEALw_wcB&utm_a=BR&utm_campaign=BRODP_sacramento_ca&utm_content=487423927588&utm_medium=cpc&utm_source=google&utm_term=%2Bgreyhound%20%2Bto%20%2Btruckee&redirecturl=true' target="_blank">Sacramento Greyhound</a></p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Accomodations</p>
