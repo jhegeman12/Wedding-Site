@@ -225,7 +225,7 @@ class IndexPage extends React.Component {
                   <br></br>
                   <br></br>
                   <a href='https://registry.theknot.com/joseph-hegeman-mikhaila-redovian-october-2022-ca/45414721' target='_blank' rel="noreferrer" className="regButton">THE KNOT</a>
-                  <a href='https://www.myregistry.com/wedding-registry/joseph-hegeman-and-mikhaila-redovian-sacramento-ca/3128622' target='_blank' rel="noreferrer" className="regButton">MyREGISTRY</a>
+                  <a href='https://www.myregistry.com/wedding-registry/joseph-hegeman-and-mikhaila-redovian-sacramento-ca/3128622/giftlist' target='_blank' rel="noreferrer" className="regButton">MyREGISTRY</a>
                 </div>
                 <div className="column">
                 <p className="regTitle">More Joseph and Mikhaila</p>
