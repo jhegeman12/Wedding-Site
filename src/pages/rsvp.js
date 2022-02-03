@@ -282,8 +282,6 @@ class RSVP extends React.Component{
   
     render() {
         return (
-            <Layout>
-                <SEO title="Joseph & Mikhaila's Wedding" />
             <div className='rsvpPage .container.is-fullhd columns'>
                 <div className="formContainer column is-one-third is-offset-one-third">
                     <p>Please enter your first and last name as shown on the invite and we will pull up your party name.</p>
@@ -348,7 +346,7 @@ class RSVP extends React.Component{
                 </div>
                 </div>
             </div>
-        </Layout>)
+            )
     }
 }
 
