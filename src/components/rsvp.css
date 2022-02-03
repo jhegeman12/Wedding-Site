@@ -40,12 +40,13 @@
   width: 100%;
   margin: 0 auto;
   display: block;
-  font-family: "Bowlby One", cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 15px;
   padding: 5px 15px 5px 15px;
   color: white;
   background-color: rgb(124, 0, 21);
   border: 3px solid 	rgb(2, 27, 74);
+  border-radius: 2px;
   transition: 0.2s;
   text-align: center;
   cursor: pointer;
@@ -66,7 +67,7 @@
 .party {
   border-bottom: 1px solid rgb(214, 214, 214);
   font-weight: 300;
-  font-family: "Bowlby One", cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -146,12 +147,12 @@
   margin: 0 auto;
   margin-top: 20px;
   display: block;
-  font-family: "Bowlby One", cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 15px;
   padding: 5px 15px 5px 15px;
   color: white;
-  border: 1px solid rgb(86, 105, 79);
-  background-color: rgb(86, 105, 79);
+  background-color: rgb(124, 0, 21);
+  border: 3px solid 	rgb(2, 27, 74);
   transition: 0.2s;
   text-align: center;
   cursor: pointer;
@@ -159,8 +160,9 @@
 }
 
 .formButtonSubmit:hover {
-  background-color: white;
-  color: rgb(86, 105, 79);
+  background-color: rgb(2, 27, 74);
+  color: white;
+  border: 3px solid rgb(2, 27, 74)
 }
 
 .none {
