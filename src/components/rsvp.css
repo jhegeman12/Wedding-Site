@@ -1,6 +1,6 @@
 .rsvpPage {
   font-family: "Epilogue", sans-serif;
-  background-color: #ecead9;
+  background-color: rgb(97, 157, 229);
   min-height: 100vh;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -43,8 +43,8 @@
   font-size: 15px;
   padding: 5px 15px 5px 15px;
   color: white;
-  border: 1px solid rgb(245, 181, 132);
-  background-color: rgb(2, 27, 74);
+  background-color: rgb(124, 0, 21);
+  border: 3px solid 	rgb(2, 27, 74);
   transition: 0.2s;
   text-align: center;
   cursor: pointer;
@@ -52,8 +52,9 @@
 }
 
 .formButton:hover {
-  background-color: white;
-  color: rgb(86, 105, 79);
+  background-color: rgb(2, 27, 74);
+  color: white;
+  border: 3px solid rgb(2, 27, 74)
 }
 
 .searchResult {

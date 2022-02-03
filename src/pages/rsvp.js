@@ -282,10 +282,11 @@ class RSVP extends React.Component{
   
     render() {
         return (
+            <Layout>
+                <SEO title="Joseph & Mikhaila's Wedding" />
             <div className='rsvpPage .container.is-fullhd columns'>
                 <div className="formContainer column is-one-third is-offset-one-third">
                     <p>Please enter your first and last name as shown on the invite and we will pull up your party name.</p>
-                    <p>Quote or Lyric about love you would like to share with the bride and groom</p>
                 <form onSubmit={this.getGuest} className='formRsvp'>
                     <div className='columns'>
                     <input className='rsvpInput column' placeholder="FIRST NAME" onChange={this.handleFirstNameChange} value={this.state.firstName}></input>
@@ -333,6 +334,10 @@ class RSVP extends React.Component{
                                         />
                                     </FormGroup>
                                 </div>
+                                <div className="group2" id={"rsvp" + i} style={{display: this.state.body[i].attendingChecked ? "block" : "none"}}>
+                                    <p>Feel free to enter a quote about love you'd like to share</p>
+                                    <input className='rsvpInput3 column' placeholder="If music be the food of love, play on"></input>
+                                </div>
                             </div>
                         )
                 })}
@@ -343,7 +348,7 @@ class RSVP extends React.Component{
                 </div>
                 </div>
             </div>
-        )
+        </Layout>)
     }
 }
 
