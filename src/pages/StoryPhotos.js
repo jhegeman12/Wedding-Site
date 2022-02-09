@@ -76,7 +76,7 @@ class StoryPhotos extends React.Component {
                   <div className='column is-8 is-offset-2'>
                   <div className="ourStory" >
                     <p className="details">Our Story</p>
-                    <p className="detailsText">Thanks for checking out this page! We met in the English Master's program at the University of Colorado, Boulder, in the fall of 2018. Though we met in a Romantic poetry class, we didn't start dating until the late spring of 2019. Even as we first bonded over a shared love of literature, over the following summer we found that we had more in common than just stories and books. </p>
+                    <p className="detailsText">Thanks for checking out this page! We met in the English Master's program at the University of Colorado, Boulder, in the fall of 2018. Though we met in a Romantic poetry class, we didn't start dating until the late spring of 2019. While we first bonded over a shared love of literature, over the following summer we found that we had more in common than just stories and books. </p>
                   </div>
                   </div>
                 </div>
@@ -87,14 +87,14 @@ class StoryPhotos extends React.Component {
                   </Image2>
                 </div> 
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. As Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner, we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
+                  <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner, so we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
 </p>
                 </div>
                 <div className="picframe">
                 <Red className="picframe"></Red>
                 </div> 
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">The following fall and winter seemed to fly by. Trips to Puerto Rico and Montana proved that we could even survive traveling together. By Spring of 2020, Joseph got his own advanced degree so Mikhaila couldn't hold that over him, received a Fulbright Scholarship to Azerbaijan, and Mikhaila was accepted into the English Ph. D. program at the University of California Davis. We prepared to see each other across continents, but Covid had other plans. After a measure of uncertainty, we moved to Davis together, no passport needed. Even with the challenges of adjusting to new careers, continuing covid isolation, and choking wildfires, we kept our spirits up throughout 2020 and 2021 by watching too much Netflix, visiting Lake Tahoe, and getting to know our block realllllly well. 
+                  <p className="detailsText">The following fall and winter seemed to fly by. Trips to Puerto Rico and Montana proved that we could even survive traveling together. By the Spring of 2020, Joseph got his own advanced degree so Mikhaila couldn't hold that over him, received a Fulbright Scholarship to Azerbaijan, and Mikhaila was accepted into the English Ph. D. program at the University of California Davis. We prepared to see each other across continents, but Covid had other plans. After a measure of uncertainty, we moved to Davis together, no passport needed. Even with the challenges of adjusting to new careers, continuing covid isolation, and choking wildfires, we kept our spirits up throughout 2020 and 2021 by watching too much Netflix, visiting Lake Tahoe, and getting to know our block realllllly well. 
 .</p>
                 </div>
                 <div className="picframe">
