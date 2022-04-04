@@ -27,7 +27,7 @@ const Page = posed.div({
   visible: { opacity: 1 },
 })
 
-class StoryPhotos extends React.Component {
+class Recommendations extends React.Component {
   state = { isVisible: false, days: 0, hours: 0, minutes: 0, seconds: 0 }
 
   countdown = () => {
