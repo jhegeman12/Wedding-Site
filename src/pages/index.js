@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
-                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. Formal attire is requested (the Groom will be wearing a navy suit with a bow tie). The ceremony will be held outside, please plan to dress accordingly. We ask that guests not take their own photos during the ceremony. </p>
+                    <p className="detailsText">The wedding ceremony will begin at 3:45 pm on October 15 in the lawn adjacent to the Olympic Valley Lodge. Formal attire is requested (Not black tie. The Groom will be wearing a navy suit with a bow tie, for reference). The ceremony will be held outside, please plan to dress accordingly. We ask that guests not take their own photos during the ceremony. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
