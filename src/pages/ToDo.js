@@ -81,8 +81,7 @@ class ToDo extends React.Component {
                 </div>
                 <div className='column is-8 is-offset-2'>
                   <p className="details">Half Day</p>
-                  <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner, so we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
-</p>
+                  <p className="detailsText">There are many outdoor activities that you can enjoy in the Tahoe area, even if you only have a morning or afternoon available. </p>
                 </div>
                 <div className="picframe">
                 <Red className="picframe"></Red>
@@ -103,7 +102,8 @@ class ToDo extends React.Component {
                   <Engage></Engage>
                 </div>
                 <div className='column is-8 is-offset-2'>
-                  <p className="detailsText">Lake Tahoe and Palisades are some of our favorite places, and we're so excited to share them with all of the people who have made our journey and our lives special. We know it will be an extensive trek for most, and we appreciate you being there on our big day. Because Lake Tahoe means so much to us, and the places we have lived are so integral to our story, we would like to acknowledge that our wedding is on the land of the <a href="https://washoetribe.us/" target ="_blank">Wašišiw (Washo) people</a> . We advocate for their restoration as the caretakers of this land. As we are all guests on this land, we ask that everyone treat the Lake Tahoe environment with a sense of respect and reciprocity. We ask that each person reflect and act on what they can do to engage with, honor, protect, and celebrate Indigenous people and places. Upon reflection and engagement with the past, present, and future of colonialism, if you are interested in taking action, but are looking for help on where to start, we recommend looking at the <a href="https://nevadaindiancommission.org/" target="_blank">Nevada Indian Commission</a>, the <a href="https://www.firstnations.org/california-tribal-fund/" target="_blank">California Tribal Fund</a>, the <a href="https://www.narf.org/" target="_blank">Native American Rights Foundation</a>, and the <a href="https://iltf.org/" target="_blank">Indian Land Tenure Foundation</a>.</p>
+                  <p className="details">Useful Links</p>
+                  <p className="detailsText">If you're looking for more ideas, take a look at these helpful websites. </p>
                 </div>
                 <div className='picframe'>
                   <SLC></SLC>
