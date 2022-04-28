@@ -70,19 +70,11 @@ class ToDo extends React.Component {
                   <div className='column is-8 is-offset-2'>
                   <div className="ourStory" >
                     <p className="details">Things to do in Tahoe</p>
-                    <p className="details">Half Day</p>
-                    <p className="details">Whole Day</p>
-                    <p className="details">Extended Stays</p>
                   </div>
                   </div>
                 </div>
-                <div className="picframe">
-                  <Image2 alt="Cute engagement photo">
-                  <div className="picframe">
-                  </div>
-                  </Image2>
-                </div> 
                 <div className='column is-8 is-offset-2'>
+                  <p className="details">Half Day</p>
                   <p className="detailsText"> After Mikhaila graduated and during Joseph's summer break in 2019, we continued to see a lot of each other. Joseph had signed up for a marathon at the end of the summer, and Mikhaila is a former distance runner, so we spent a lot of time getting to know each other better over long runs around the Boulder Reservoir. Though Boulder is a runner's paradise, when we got tired of logging miles, we spent time climbing the Flatirons and hiking around town.
 </p>
                 </div>
@@ -90,6 +82,7 @@ class ToDo extends React.Component {
                 <Red className="picframe"></Red>
                 </div> 
                 <div className='column is-8 is-offset-2'>
+                  <p className="details">Whole Day</p>
                   <p className="detailsText">The following fall and winter seemed to fly by. Trips to Puerto Rico and Montana proved that we could even survive traveling together. By the Spring of 2020, Joseph got his own advanced degree so Mikhaila couldn't hold that over him, received a Fulbright Scholarship to Azerbaijan, and Mikhaila was accepted into the English Ph. D. program at the University of California Davis. We prepared to see each other across continents, but Covid had other plans. After a measure of uncertainty, we moved to Davis together, no passport needed. Even with the challenges of adjusting to new careers, continuing covid isolation, and choking wildfires, we kept our spirits up throughout 2020 and 2021 by watching too much Netflix, visiting Lake Tahoe, and getting to know our block realllllly well. 
 .</p>
                 </div>
@@ -97,6 +90,7 @@ class ToDo extends React.Component {
                   <Image3></Image3>
                 </div>
                 <div className='column is-8 is-offset-2'>
+                  <p className="details">Extended Stays</p>
                   <p className="detailsText">When the snow started to fly, we got to explore the Sierra Nevada on skis, and this quickly became our favorite part of living in California. It was only fitting then that Joseph proposed at the top of the Emigrant Lift at Palisades on an unexpected powder day. Even though it was Valentine's Day <i>(Ed. note - So cliche)</i>, and even though Joseph hadn't brought the ring with him <i>(Ed. note - rookie mistake)</i>, Mikhaila still said yes. Joseph even had a chance at a do-over later that night, ring included. The answer was still the same. </p>
                 </div>
                 <div className='picframe'>
