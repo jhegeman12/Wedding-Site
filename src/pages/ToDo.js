@@ -80,6 +80,15 @@ class ToDo extends React.Component {
                   </div>
                 </div>
                 <div className='column is-8 is-offset-2'>
+                  <p className="details">Food and Drinks</p>
+                  <p className="detailsText">There are many outdoor activities that you can enjoy in the Tahoe area, if you're looking for an activity you can do in an afternoon or, say, the morning before the wedding, we think you'll find this list useful. </p>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                </div>
+                <div className='column is-8 is-offset-2'>
                   <p className="details">Half Day</p>
                   <p className="detailsText">There are many outdoor activities that you can enjoy in the Tahoe area, if you're looking for an activity you can do in an afternoon or, say, the morning before the wedding, we think you'll find this list useful. </p>
                   <ul className="detailsText">Item 1</ul>
