@@ -81,22 +81,34 @@ class ToDo extends React.Component {
                 </div>
                 <div className='column is-8 is-offset-2'>
                   <p className="details">Half Day</p>
-                  <p className="detailsText">There are many outdoor activities that you can enjoy in the Tahoe area, even if you only have a morning or afternoon available. </p>
+                  <p className="detailsText">There are many outdoor activities that you can enjoy in the Tahoe area, if you're looking for an activity you can do in an afternoon or, say, the morning before the wedding, we think you'll find this list useful. </p>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
                 </div>
                 <div className="picframe">
                 <Red className="picframe"></Red>
                 </div> 
                 <div className='column is-8 is-offset-2'>
                   <p className="details">Whole Day</p>
-                  <p className="detailsText">The following fall and winter seemed to fly by. Trips to Puerto Rico and Montana proved that we could even survive traveling together. By the Spring of 2020, Joseph got his own advanced degree so Mikhaila couldn't hold that over him, received a Fulbright Scholarship to Azerbaijan, and Mikhaila was accepted into the English Ph. D. program at the University of California Davis. We prepared to see each other across continents, but Covid had other plans. After a measure of uncertainty, we moved to Davis together, no passport needed. Even with the challenges of adjusting to new careers, continuing covid isolation, and choking wildfires, we kept our spirits up throughout 2020 and 2021 by watching too much Netflix, visiting Lake Tahoe, and getting to know our block realllllly well. 
-.</p>
+                  <p className="detailsText">If you have a bit more time available, here is a list of activities you could spend a whole day on.</p>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
                 </div>
                 <div className="picframe">
                   <Image3></Image3>
                 </div>
                 <div className='column is-8 is-offset-2'>
                   <p className="details">Extended Stays</p>
-                  <p className="detailsText">When the snow started to fly, we got to explore the Sierra Nevada on skis, and this quickly became our favorite part of living in California. It was only fitting then that Joseph proposed at the top of the Emigrant Lift at Palisades on an unexpected powder day. Even though it was Valentine's Day <i>(Ed. note - So cliche)</i>, and even though Joseph hadn't brought the ring with him <i>(Ed. note - rookie mistake)</i>, Mikhaila still said yes. Joseph even had a chance at a do-over later that night, ring included. The answer was still the same. </p>
+                  <p className="detailsText">If you are planning a longer vacation around the wedding, there loads of things to do in Northern California. Here are some helpful ideas to get you started. </p>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
                 </div>
                 <div className='picframe'>
                   <Engage></Engage>
@@ -104,6 +116,10 @@ class ToDo extends React.Component {
                 <div className='column is-8 is-offset-2'>
                   <p className="details">Useful Links</p>
                   <p className="detailsText">If you're looking for more ideas, take a look at these helpful websites. </p>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
+                  <ul className="detailsText">Item 1</ul>
                 </div>
                 <div className='picframe'>
                   <SLC></SLC>
