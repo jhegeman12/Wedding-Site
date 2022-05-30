@@ -88,10 +88,10 @@ class IndexPage extends React.Component {
                   </div>
                   
                 </div>
-                {/* RSVP button 
+                {/* RSVP button */}
                 <div className="conatiner rsvp">
-                  <Link to='/rsvp' className='rsvpButton'>RSVP</Link>
-                </div>*/}
+                  <p className='rsvpButton'><a rel="noreferrer" href='https://www.theknot.com/us/joseph-hegeman-and-mikhaila-redovian-oct-2022/rsvpRSVP' target="_blank">RSVP</a></p>
+                </div>
               
                 <div className='container images'>
                   <div className="bigImg" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease" data-sal-duration='1000'>
