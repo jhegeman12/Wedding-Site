@@ -89,7 +89,7 @@ class IndexPage extends React.Component {
                   
                 </div>
                 {/* RSVP button */}
-                <div className="container rsvp">
+                <div className='rsvp'>
                   <p className='rsvpButton'><a rel="noreferrer" href='https://www.theknot.com/us/joseph-hegeman-and-mikhaila-redovian-oct-2022/rsvpRSVP' target="_blank">RSVP</a></p>
                 </div>
               
