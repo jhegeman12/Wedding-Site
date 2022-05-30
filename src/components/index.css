@@ -93,11 +93,9 @@
 .rsvp {
   text-align: center;
   position: relative;
-  top: 8px;
+  top: -80px;
   background-color: rgb(124, 0, 21);
   color: white;
-  font-size: 50px;
-  font-weight:700;
 }
 
 .rsvpButton {
