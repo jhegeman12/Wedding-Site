@@ -109,11 +109,11 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="column">
                     <p className="detailsSub">Ceremony</p>
-                    <p className="detailsText">The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Conference Center. Cocktail attire is requested (The Groom will be wearing a navy suit with a bow tie, for reference). The ceremony will be held outside, please plan to dress accordingly. We ask that guests not take their own photos during the ceremony. </p>
+                    <p className="detailsText">The wedding ceremony will begin at 4:00 pm on October 15 in the lawn adjacent to the Olympic Valley Event Center. Cocktail attire is requested (The Groom will be wearing a navy suit with a bow tie, for reference). The ceremony will be held outside, please plan to dress accordingly. We ask that guests not take their own photos during the ceremony. </p>
                   </div>
                   <div className="column">
                     <p className="detailsSub">Reception</p>
-                    <p className="detailsText">Please join us for cocktails starting immediately after the ceremony on the sun deck of the Olympic Valley Conference Center. The reception will follow inside the lodge with dinner starting around 6. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and snacks.</p>
+                    <p className="detailsText">Please join us for cocktails starting immediately after the ceremony on the sun deck of the Olympic Valley Event Center. The reception will follow inside the lodge with dinner starting around 6. The reception will end promptly at 10 pm. The Palisades Village is within walking distance of the Lodge and home to multiple bars and restaurants for late night drinks and snacks.</p>
                   </div>
                 </div>
                 
